@@ -57,8 +57,40 @@ Rosenblatt's perception model can then be further simplified:
 	\includegraphics[scale=0.5]{simplified_perceptron_model}
 \end{figure}
 
-
 \begin{itemize}
 	\item Association units commbine sensory input with fixed weights.
 	\item Response units combine associative units with learnable weights.
+\end{itemize}
+
+Each of the units can be perceived as shown below:
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{perceptron_fbd}
+\end{figure}
+
+\begin{itemize}
+	\item Number of inputs combine linearly.
+	\item Threshold logic is applied at the output of the unit: It will only fire if the weighted sum of the input exceeds threshold.
+\end{itemize}
+
+\[ 
+Y = 
+\begin{cases} 
+	1, & \text{if } \sum_{i}w_ix_i - T >\ 0 \\
+	0, & \text{else }
+\end{cases}
+\]
+
+\subsection{The Universal Model}
+Originally assumed could represent any Boolean circuit and perform any logic. However this was not true and this cause the research in neural networks died down because of the overhype. However, Rosenblatt was right, he not only gave us basic model, he also gives us the learning algorithm.
+
+\[ w = w + \eta (d(x) - y(x))x \]
+
+Sequential learning:
+\begin{itemize}
+	\item $d(x)$ is the desired output in response to input $x$.
+	\item $y(x)$ is the actual output in response to $x$.
+	\item Weight parameter is changed when the actual response of the neuron does not match the desired response of the neuron.
+	\item If the actual response of the neuron exceeds the desired response of the neeuron, then the weight will decrease.
+	\item If the actual response is lesser than the desired response, the weight will increase.
 \end{itemize}
