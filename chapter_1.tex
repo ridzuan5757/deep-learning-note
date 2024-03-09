@@ -263,6 +263,15 @@ Suppose that we are given arbirary function as shown below:
 	\includegraphics[width=0.5\textwidth]{1_arbitrary_continuous}
 \end{figure}
 
+\hfill\break
+We can partition the input space into lots of little buckets (similar how ADC works), so that we can have one little subnet for each of the bucket. Then we can scale the outputs by the height of the function average within that range.
+
+\begin{itemize}
+	\item An MLP with many units can model an arbirary function over an input.
+	\item We can get an arbirary precision by making the individual buckets smaller.
+	\item This generalizes to functions of any number of inputs.
+\end{itemize}
+
 \subsection{Summary}
 \begin{itemize}
 	\item MLPs are connectionist computational models.
