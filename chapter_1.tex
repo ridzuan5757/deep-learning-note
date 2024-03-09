@@ -46,7 +46,7 @@ Consider the eye structure:
 	\item Groups of sensors on retina combine into cells in association in the \textbf{projection area}.
 	\item Groups of \textbf{projection area} combine into Association cells in \textbf{association area}.
 	\item Signals from \textbf{association area} cells combine into response cell \textbf{R}.
-	\item All connectioons may be excitatory or inhibitory.
+	\item All connections may be excitatory or inhibitory.
 \end{itemize}
 
 Rosenblatt's perception model can then be further simplified:
@@ -76,7 +76,7 @@ Each of the units can be perceived as shown below:
 \[ 
 Y = 
 \begin{cases} 
-	1, & \text{if } \sum_{i}w_ix_i - T >\ 0 \\
+	1, & \text{if } \sum_{i}w_ix_i - T \geq 0 \\
 	0, & \text{else }
 \end{cases}
 \]
@@ -84,13 +84,204 @@ Y =
 \subsection{The Universal Model}
 Originally assumed could represent any Boolean circuit and perform any logic. However this was not true and this cause the research in neural networks died down because of the overhype. However, Rosenblatt was right, he not only gave us basic model, he also gives us the learning algorithm.
 
-\[ w = w + \eta (d(x) - y(x))x \]
+\[ \mathbf{w} = \mathbf{w} + \eta (d(\mathbf{x}) - y(\mathbf{x}))\mathbf{x} \]
 
 Sequential learning:
 \begin{itemize}
-	\item $d(x)$ is the desired output in response to input $x$.
-	\item $y(x)$ is the actual output in response to $x$.
+	\item $d(\mathbf{x})$ is the desired output in response to input $\mathbf{x}$.
+	\item $y(\mathbf{x})$ is the actual output in response to $\mathbf{x}$.
 	\item Weight parameter is changed when the actual response of the neuron does not match the desired response of the neuron.
 	\item If the actual response of the neuron exceeds the desired response of the neeuron, then the weight will decrease.
 	\item If the actual response is lesser than the desired response, the weight will increase.
+\end{itemize}
+
+\paragraph{Single perceptron is not enough}
+While this model able to mimic boolean logic such as AND, OR and NOT, it is not capable to mimic XOR gate. This imply that individual elements are weak computational elements and networked elements are required. However, with multilayered perceptron, XOR gate can be constructed:
+\begin{itemize}
+	\item Start with two inputs, A and B.
+	\item Use AND gate to compute A and NOT B.
+	\item Use another AND gate to compute NOT A AND B.
+	\item Use an OR gate to combine the outputs of thee two AND gate.
+\end{itemize}
+
+This would lead to construction of perception network to represent a much more generic model:
+\begin{itemize}
+	\item Perceptrons can be multi-layered.
+	\item Can compose arbitrarily complicated boolean functions.
+	\item In cognitive terms, it should be capable to compute arbitrary boolean functions over sensory input.
+\end{itemize}
+
+\subsection{Difference between brain and neural networks}
+\begin{itemize}
+	\item Brains have real inputs.
+	\item We are capable to make non-Boolean inferences and prediction.
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{perceptron_fbd}
+\end{figure}
+
+\noindent We can however try to implement \textbf{real inputs} on the perceptron model:
+\begin{itemize}
+	\item $x_1,x_2,...,x_N$ are real-valued.
+	\item $w_1,w_2,...,w_N$ are real-valued.
+	\item Unit is only fired if weighted sum of input matches or exceeds the threshold values $T$.
+\end{itemize}
+
+\begin{equation}
+Y = 
+\begin{cases} 
+	1, & \text{if } \sum_{i}w_ix_i - T \geq 0 \\
+	0, & \text{else }
+\end{cases}
+\end{equation}
+
+\hfill\break
+This create a boundary condition such that $\sum w_ix_i = T$ where every sum of inputs that's greater than $T$ will fire and everything that is less than $T$ would not fire.
+
+\hfill\break
+That being said, this provides an alternative view:
+\begin{itemize}
+	\item The neuron has a threshold \textbf{activation function} $\theta (z)$ operates on the weighted sum of inputs plus a bias. (Affine function of the inputs).
+	\item The boundary $b$, is the value such that the affine term is equal to zero.
+	\item Linear function is an affine function that passed through origin.
+	\item $\theta (z)$ outputs a $1$ if $z$ is non-negative $0$ otherwise.
+	\item Unit fires if weighted input matches or exceed threshold.
+\end{itemize}
+\[ 
+y = \theta \left( \sum_{i}w_ix_i + b 																								\right)
+\]
+
+\[ 
+\theta(z) = 
+\begin{cases} 
+	1, & \text{if } z \geq 0 \\
+	0, & \text{else }
+\end{cases}
+\]
+
+\hfill\break
+On real numbers, this equation produce a hyperplane such with line separation of $w_1x_1 + w_2x_2 + ... + w_nx_n = T$ where one side of the plane is $1$ and the other side of the plane is $0$. This would means that a perceptron that operates on real-valued vectors is a type of linear classifier.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{hyperplane}
+\end{figure}
+
+\hfill\break
+Similarly, for two-dimensional inputs, if we ever to plot the function, the function is going to looks like a step function. On one side, the output is $1$ and on the other side, the output is $0$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{2d_hyperplane}
+\end{figure}
+
+\hfill\break
+Once we can see how the perceptron model works, we can finally see how it performs Boolean's functions.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{1_boolean}
+\end{figure}
+
+\hfill\break
+That being said, Boolean's perceptron is also linear classifiers:
+\begin{itemize}
+	\item Purple regions have output of $1$ in the figures.
+	\item The left figure showcase OR-function.
+	\item The middle figure showcase AND-function.
+	\item The right figure showcase NOT-function.
+	\item This is also the reason why a simple perceptron model is not enough to compose XOR-function.
+\end{itemize}
+
+\hfill\break
+We can however, compose complicated decision boundaries by combining multiple linear perceptron by building a network of units with single output that firees if the input is in the desired regions. For example, we can use 5 perceptron model to compose 5 boundary condition of a pentagon. For each perceptron, the network will fire if the input is in the yellow area.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{1_multi_model_perceptron}
+\end{figure}
+
+\hfill\break
+Given this perceptrons, we can AND them together capture the pentagon decision boundary.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{1_pentagon}
+\end{figure}
+
+\hfill\break
+This also imply that much more complex boundary condition can be solved as well.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{1_complex}
+\end{figure}
+
+\hfill\break
+The network will fire if the input is in the yellow area:
+\begin{itemize}
+	\item "OR" two polygons
+	\item This would means that a third layer of perceptron that behaves as "OR" gate is required.
+\end{itemize}
+
+\hfill\break
+As the multi-layered perceptron is capable to solve complex decision boundaries, it can be used to solve:
+\begin{itemize}
+	\item Classification problems - finding decision boundaries in high-dimensional space.
+	\item For example, the MNIST dataset every image as at least 784 dimensions boundary that need to be solved.
+	\item MLP can be considered as universal classifiers as for any decision boundary, we can construct MLP that captures it with arbitrary precision.
+\end{itemize}
+
+\subsection{Continuous Valued Outputs}
+So far we have covered networks which have Boolean functions where the inputs were Boolean and the output was Boolean. We also discussed functions that took continuous valueed inputs that gave Boolean or categorical output. This section covers the possibility of the networks having real-valued inputs with continuous valued output.
+
+\hfill\break
+Consider a simple three units MLP:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{1_3_unit_mlps}
+\end{figure}
+
+\begin{itemize}
+	\item The input is a single scalar $\mathbf{x}$.
+	\item The first neuron fires, meaning that the output becomes $1$ anytime the input $\mathbf{x}$ exceed the threshold value $T_1$.
+	\item The second neuron also fires, meaning that the output becomes $1$ anytime the input $\mathbf{x}$ exceed the threshold value $T_2$.
+	\item Their outputs are summed with values $1$ and $-1$ respectively.
+	\item As $\mathbf{x}$ goes from large negative value to large positive value, assuming without loss of generality $T_1 < T_2$, eventually it will cross $T_1$ (At this point it has not yet crossed $T_2$).
+	\item So at the first perceptron, the output is $1$ while it is still $0$ on the second perceptron.
+	\item As we continue to increase $\mathbf{x}$, it will eventually crosses $T_2$ and the output of these 2 neurons will cancel out.
+	\item The output of the overall circuit goes back to zero after passing $T_2$.
+	\item This network will output $1$ if the input is between $T_1$ and $T_2$, and zero elsewhere.
+\end{itemize}
+
+\hfill\break
+Suppose that we are given arbirary function as shown below:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{1_arbitrary_continuous}
+\end{figure}
+
+\subsection{Summary}
+\begin{itemize}
+	\item MLPs are connectionist computational models.
+	\begin{itemize}
+		\item Individual perceptrons are computational equivalent of neurons.
+		\item The MLP is a layered composition of many perceptrons.
+	\end{itemize}
+		\item MLPs can model any Booleans function.
+	\begin{itemize}
+		\item Individual perceptrons can act as Boolean gates.
+		\item Networks of perceptrons are Boolean gates.
+		\item MLPs are universal Boolean functions.
+	\end{itemize}
+		\item MLPs can models any decision boundary.
+	\begin{itemize}
+		\item Individual perceptrons capture linear boundaries.
+		\item Complex boundaries can be composed from the linear boundaries.
+		\item MLPs can represent arbitrary decision boundaries.
+		\item They can be used to classify data.
+		\item MLPs are universal classifiers.
+	\end{itemize}
 \end{itemize}
