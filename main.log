@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  9 MAR 2024 21:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  10 MAR 2024 19:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -314,79 +314,101 @@ Package pdftex.def Info: ./images//1_boolean.png  used on input line 185.
 (pdftex.def)             Requested size: 396.35481pt x 137.01154pt.
  [5 <./images//hyperplane.png> <./images//2d_hyperplane.png> <./images//1_boole
 an.png>]
-<./images//1_multi_model_perceptron.png, id=40, 1353.55687pt x 856.70062pt>
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+[]
+ []
+
+<./images//2_and_gate.png, id=40, 377.91188pt x 310.15875pt>
+File: ./images//2_and_gate.png Graphic file (type png)
+<use ./images//2_and_gate.png>
+Package pdftex.def Info: ./images//2_and_gate.png  used on input line 252.
+(pdftex.def)             Requested size: 234.8775pt x 192.7697pt.
+[6]
+<./images//2_or_gate.png, id=44, 380.17032pt x 298.11375pt>
+File: ./images//2_or_gate.png Graphic file (type png)
+<use ./images//2_or_gate.png>
+Package pdftex.def Info: ./images//2_or_gate.png  used on input line 303.
+(pdftex.def)             Requested size: 234.8775pt x 184.18723pt.
+ [7 <./images//2_and_gate.png>]
+<./images//2_not_gate.png, id=50, 375.65344pt x 211.54031pt>
+File: ./images//2_not_gate.png Graphic file (type png)
+<use ./images//2_not_gate.png>
+Package pdftex.def Info: ./images//2_not_gate.png  used on input line 350.
+(pdftex.def)             Requested size: 234.8775pt x 132.26723pt.
+ [8 <./images//2_or_gate.png> <./images//2_not_gate.png>]
+<./images//1_multi_model_perceptron.png, id=56, 1353.55687pt x 856.70062pt>
 File: ./images//1_multi_model_perceptron.png Graphic file (type png)
 <use ./images//1_multi_model_perceptron.png>
 Package pdftex.def Info: ./images//1_multi_model_perceptron.png  used on input 
-line 203.
+line 359.
 (pdftex.def)             Requested size: 469.75502pt x 297.3137pt.
-<./images//1_pentagon.png, id=41, 766.36313pt x 398.99063pt>
+<./images//1_pentagon.png, id=57, 766.36313pt x 398.99063pt>
 File: ./images//1_pentagon.png Graphic file (type png)
 <use ./images//1_pentagon.png>
-Package pdftex.def Info: ./images//1_pentagon.png  used on input line 211.
+Package pdftex.def Info: ./images//1_pentagon.png  used on input line 367.
 (pdftex.def)             Requested size: 469.75502pt x 244.5711pt.
- [6 <./images//1_multi_model_perceptron.png>]
-<./images//1_complex.png, id=45, 752.0597pt x 374.14781pt>
+ [9 <./images//1_multi_model_perceptron.png>]
+<./images//1_complex.png, id=61, 752.0597pt x 374.14781pt>
 File: ./images//1_complex.png Graphic file (type png)
 <use ./images//1_complex.png>
-Package pdftex.def Info: ./images//1_complex.png  used on input line 219.
+Package pdftex.def Info: ./images//1_complex.png  used on input line 375.
 (pdftex.def)             Requested size: 469.75502pt x 233.70477pt.
- [7 <./images//1_pentagon.png> <./images//1_complex.png>]
-<./images//1_3_unit_mlps.png, id=52, 296.60812pt x 264.23718pt>
+ [10 <./images//1_pentagon.png> <./images//1_complex.png>]
+<./images//1_3_unit_mlps.png, id=67, 296.60812pt x 264.23718pt>
 File: ./images//1_3_unit_mlps.png Graphic file (type png)
 <use ./images//1_3_unit_mlps.png>
-Package pdftex.def Info: ./images//1_3_unit_mlps.png  used on input line 244.
+Package pdftex.def Info: ./images//1_3_unit_mlps.png  used on input line 400.
 (pdftex.def)             Requested size: 234.8775pt x 209.2531pt.
-<./images//1_arbitrary_continuous.png, id=53, 420.82219pt x 234.1247pt>
+<./images//1_arbitrary_continuous.png, id=68, 420.82219pt x 234.1247pt>
 File: ./images//1_arbitrary_continuous.png Graphic file (type png)
 <use ./images//1_arbitrary_continuous.png>
 Package pdftex.def Info: ./images//1_arbitrary_continuous.png  used on input li
-ne 263.
+ne 419.
 (pdftex.def)             Requested size: 234.8775pt x 130.67667pt.
- [8 <./images//1_3_unit_mlps.png>])
-(chapter_2.tex [9 <./images//1_arbitrary_continuous.png>]
-<./images//2_perceptron.png, id=62, 473.51906pt x 298.11375pt>
+ [11 <./images//1_3_unit_mlps.png>])
+(chapter_2.tex [12 <./images//1_arbitrary_continuous.png>]
+<./images//2_perceptron.png, id=77, 473.51906pt x 298.11375pt>
 File: ./images//2_perceptron.png Graphic file (type png)
 <use ./images//2_perceptron.png>
 Package pdftex.def Info: ./images//2_perceptron.png  used on input line 6.
 (pdftex.def)             Requested size: 234.8775pt x 147.86926pt.
-<./images//2_2depth.png, id=63, 227.34938pt x 121.95563pt>
+<./images//2_2depth.png, id=78, 227.34938pt x 121.95563pt>
 File: ./images//2_2depth.png Graphic file (type png)
 <use ./images//2_2depth.png>
 Package pdftex.def Info: ./images//2_2depth.png  used on input line 55.
 (pdftex.def)             Requested size: 187.89914pt x 100.79512pt.
- [10 <./images//2_perceptron.png>]
-<./images//2_3depth.png, id=68, 295.85532pt x 149.05687pt>
+ [13 <./images//2_perceptron.png>]
+<./images//2_3depth.png, id=84, 295.85532pt x 149.05687pt>
 File: ./images//2_3depth.png Graphic file (type png)
 <use ./images//2_3depth.png>
 Package pdftex.def Info: ./images//2_3depth.png  used on input line 62.
 (pdftex.def)             Requested size: 187.89914pt x 94.66824pt.
-<./images//2_layer.png, id=69, 551.81157pt x 238.64156pt>
+<./images//2_layer.png, id=85, 551.81157pt x 238.64156pt>
 File: ./images//2_layer.png Graphic file (type png)
 <use ./images//2_layer.png>
 Package pdftex.def Info: ./images//2_layer.png  used on input line 73.
 (pdftex.def)             Requested size: 352.31625pt x 152.37321pt.
- [11 <./images//2_2depth.png> <./images//2_3depth.png> <./images//2_layer.png>]
-<./images//2_boolean_gate.png, id=76, 776.14969pt x 386.19281pt>
+ [14 <./images//2_2depth.png> <./images//2_3depth.png> <./images//2_layer.png>]
+<./images//2_boolean_gate.png, id=92, 776.14969pt x 386.19281pt>
 File: ./images//2_boolean_gate.png Graphic file (type png)
 <use ./images//2_boolean_gate.png>
 Package pdftex.def Info: ./images//2_boolean_gate.png  used on input line 90.
 (pdftex.def)             Requested size: 469.75502pt x 233.74458pt.
-<./images//2_universal_and.png, id=77, 688.07062pt x 348.55219pt>
+<./images//2_universal_and.png, id=93, 688.07062pt x 348.55219pt>
 File: ./images//2_universal_and.png Graphic file (type png)
 <use ./images//2_universal_and.png>
 Package pdftex.def Info: ./images//2_universal_and.png  used on input line 98.
 (pdftex.def)             Requested size: 234.8775pt x 118.9795pt.
-) [12 <./images//2_boolean_gate.png> <./images//2_universal_and.png>] (main.aux
+) [15 <./images//2_boolean_gate.png> <./images//2_universal_and.png>] (main.aux
 ) ) 
 Here is how much of TeX's memory you used:
- 3354 strings out of 478312
- 59922 string characters out of 5839263
- 1860340 words of memory out of 5000000
- 23470 multiletter control sequences out of 15000+600000
+ 3388 strings out of 478312
+ 60751 string characters out of 5839263
+ 1861340 words of memory out of 5000000
+ 23504 multiletter control sequences out of 15000+600000
  518970 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 72i,16n,77p,402b,243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,16n,77p,398b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Muhamad Ridzuan\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
 /ec/dpi600\tcrm1000.pk><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roamin
@@ -402,9 +424,9 @@ uhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.p
 fb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (12 pages, 1029993 bytes).
+Output written on main.pdf (15 pages, 1075703 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
