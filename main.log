@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  10 MAR 2024 19:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  12 MAR 2024 06:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -188,23 +188,358 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box54
 \@float@everytoks=\toks24
 \@floatcapt=\box55
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlaye
+r\tikz.sty
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\p
+gf.sty
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pg
+frcs.sty
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\
+pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\
+pgfutil-latex.def
+\pgfutil@abb=\box56
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\
+pgfrcs.code.tex
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf\pgf.revisi
+on.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\p
+gfcore.sty
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/systemlayer\
+pgfsys.sty
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlaye
+r\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\
+pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\
+pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count279
+\c@pgf@countb=\count280
+\c@pgf@countc=\count281
+\c@pgf@countd=\count282
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count283
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlaye
+r\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlaye
+r\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlaye
+r\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlaye
+r\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count284
+\pgfsyssoftpath@bigbuffer@items=\count285
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlaye
+r\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.st
+y
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics-cfg\col
+or.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics\mathcol
+or.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+th.code.tex
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thutil.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count286
+\pgfmath@box=\box57
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfunctions.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfunctions.basic.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfunctions.trigonometric.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfunctions.random.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfunctions.comparison.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfunctions.base.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfunctions.round.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfunctions.misc.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfunctions.integerarithmetics.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thcalc.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+thfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count287
+))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfin
+t.code.tex)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count288
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen191
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen195
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count289
+\pgf@shadingcount=\count290
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box61
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
+\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pg
+fmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box62
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pg
+fmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibilit
+y\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibilit
+y\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pg
+ffor.sty
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pg
+fkeys.sty
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\
+pgfkeys.code.tex))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/math\pgfmath
+.sty
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfma
+th.code.tex))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\
+pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen199
+\pgffor@skip=\dimen256
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
+yer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\
+pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count291
+\pgfplotmarksize=\dimen257
+)
+\tikz@lastx=\dimen258
+\tikz@lasty=\dimen259
+\tikz@lastxsaved=\dimen260
+\tikz@lastysaved=\dimen261
+\tikz@lastmovetox=\dimen262
+\tikz@lastmovetoy=\dimen263
+\tikzleveldistance=\dimen264
+\tikzsiblingdistance=\dimen265
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count292
+\tikznumberofchildren=\count293
+\tikznumberofcurrentchild=\count294
+\tikz@fig@count=\count295
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pg
+fmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count296
+\pgfmatrixcurrentcolumn=\count297
+\pgf@matrix@numberofcolumns=\count298
+)
+\tikz@expandcount=\count299
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -244,17 +579,17 @@ LaTeX Font Info:    ... okay on input line 16.
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp
 -pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
-\scratchdimen=\dimen160
-\scratchbox=\box56
-\nofMPsegments=\count280
-\nofMParguments=\count281
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count282
-\MPscratchDim=\dimen161
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count300
+\scratchdimen=\dimen266
+\scratchbox=\box67
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen267
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks38
 )
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/epstopdf-pkg\eps
 topdf-base.sty
@@ -275,13 +610,13 @@ e where the contribution of input is \OT1/cmr/m/it/10 incrementally
 
 {C:/Users/Muhamad Ridzuan/AppData/Local/MiKTeX/2.9/fonts/map/pdftex/pdftex.map}
 ]
-<./images//simplified_perceptron_model.png, id=16, 470.50781pt x 348.55219pt>
+<./images//simplified_perceptron_model.png, id=19, 470.50781pt x 348.55219pt>
 File: ./images//simplified_perceptron_model.png Graphic file (type png)
 <use ./images//simplified_perceptron_model.png>
 Package pdftex.def Info: ./images//simplified_perceptron_model.png  used on inp
 ut line 57.
 (pdftex.def)             Requested size: 235.25333pt x 174.27565pt.
-<./images//perceptron_fbd.png, id=18, 588.69937pt x 290.58563pt>
+<./images//perceptron_fbd.png, id=21, 588.69937pt x 290.58563pt>
 File: ./images//perceptron_fbd.png Graphic file (type png)
 <use ./images//perceptron_fbd.png>
 Package pdftex.def Info: ./images//perceptron_fbd.png  used on input line 68.
@@ -296,18 +631,18 @@ Package pdftex.def Info: ./images//perceptron_fbd.png  used on input line 122.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3]
-<./images//hyperplane.png, id=28, 447.92343pt x 289.08pt>
+<./images//hyperplane.png, id=31, 447.92343pt x 289.08pt>
 File: ./images//hyperplane.png Graphic file (type png)
 <use ./images//hyperplane.png>
 Package pdftex.def Info: ./images//hyperplane.png  used on input line 169.
 (pdftex.def)             Requested size: 223.96117pt x 144.53964pt.
  [4]
-<./images//2d_hyperplane.png, id=32, 335.00156pt x 252.945pt>
+<./images//2d_hyperplane.png, id=35, 335.00156pt x 252.945pt>
 File: ./images//2d_hyperplane.png Graphic file (type png)
 <use ./images//2d_hyperplane.png>
 Package pdftex.def Info: ./images//2d_hyperplane.png  used on input line 177.
 (pdftex.def)             Requested size: 167.50037pt x 126.47218pt.
-<./images//1_boolean.png, id=33, 792.71156pt x 274.02374pt>
+<./images//1_boolean.png, id=36, 792.71156pt x 274.02374pt>
 File: ./images//1_boolean.png Graphic file (type png)
 <use ./images//1_boolean.png>
 Package pdftex.def Info: ./images//1_boolean.png  used on input line 185.
@@ -318,48 +653,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--221
 []
  []
 
-<./images//2_and_gate.png, id=40, 377.91188pt x 310.15875pt>
+<./images//2_and_gate.png, id=43, 377.91188pt x 310.15875pt>
 File: ./images//2_and_gate.png Graphic file (type png)
 <use ./images//2_and_gate.png>
 Package pdftex.def Info: ./images//2_and_gate.png  used on input line 252.
 (pdftex.def)             Requested size: 234.8775pt x 192.7697pt.
 [6]
-<./images//2_or_gate.png, id=44, 380.17032pt x 298.11375pt>
+<./images//2_or_gate.png, id=47, 380.17032pt x 298.11375pt>
 File: ./images//2_or_gate.png Graphic file (type png)
 <use ./images//2_or_gate.png>
 Package pdftex.def Info: ./images//2_or_gate.png  used on input line 303.
 (pdftex.def)             Requested size: 234.8775pt x 184.18723pt.
  [7 <./images//2_and_gate.png>]
-<./images//2_not_gate.png, id=50, 375.65344pt x 211.54031pt>
+<./images//2_not_gate.png, id=53, 375.65344pt x 211.54031pt>
 File: ./images//2_not_gate.png Graphic file (type png)
 <use ./images//2_not_gate.png>
 Package pdftex.def Info: ./images//2_not_gate.png  used on input line 350.
 (pdftex.def)             Requested size: 234.8775pt x 132.26723pt.
  [8 <./images//2_or_gate.png> <./images//2_not_gate.png>]
-<./images//1_multi_model_perceptron.png, id=56, 1353.55687pt x 856.70062pt>
+<./images//1_multi_model_perceptron.png, id=59, 1353.55687pt x 856.70062pt>
 File: ./images//1_multi_model_perceptron.png Graphic file (type png)
 <use ./images//1_multi_model_perceptron.png>
 Package pdftex.def Info: ./images//1_multi_model_perceptron.png  used on input 
 line 359.
 (pdftex.def)             Requested size: 469.75502pt x 297.3137pt.
-<./images//1_pentagon.png, id=57, 766.36313pt x 398.99063pt>
+<./images//1_pentagon.png, id=60, 766.36313pt x 398.99063pt>
 File: ./images//1_pentagon.png Graphic file (type png)
 <use ./images//1_pentagon.png>
 Package pdftex.def Info: ./images//1_pentagon.png  used on input line 367.
 (pdftex.def)             Requested size: 469.75502pt x 244.5711pt.
  [9 <./images//1_multi_model_perceptron.png>]
-<./images//1_complex.png, id=61, 752.0597pt x 374.14781pt>
+<./images//1_complex.png, id=64, 752.0597pt x 374.14781pt>
 File: ./images//1_complex.png Graphic file (type png)
 <use ./images//1_complex.png>
 Package pdftex.def Info: ./images//1_complex.png  used on input line 375.
 (pdftex.def)             Requested size: 469.75502pt x 233.70477pt.
  [10 <./images//1_pentagon.png> <./images//1_complex.png>]
-<./images//1_3_unit_mlps.png, id=67, 296.60812pt x 264.23718pt>
+<./images//1_3_unit_mlps.png, id=70, 296.60812pt x 264.23718pt>
 File: ./images//1_3_unit_mlps.png Graphic file (type png)
 <use ./images//1_3_unit_mlps.png>
 Package pdftex.def Info: ./images//1_3_unit_mlps.png  used on input line 400.
 (pdftex.def)             Requested size: 234.8775pt x 209.2531pt.
-<./images//1_arbitrary_continuous.png, id=68, 420.82219pt x 234.1247pt>
+<./images//1_arbitrary_continuous.png, id=71, 420.82219pt x 234.1247pt>
 File: ./images//1_arbitrary_continuous.png Graphic file (type png)
 <use ./images//1_arbitrary_continuous.png>
 Package pdftex.def Info: ./images//1_arbitrary_continuous.png  used on input li
@@ -367,66 +702,85 @@ ne 419.
 (pdftex.def)             Requested size: 234.8775pt x 130.67667pt.
  [11 <./images//1_3_unit_mlps.png>])
 (chapter_2.tex [12 <./images//1_arbitrary_continuous.png>]
-<./images//2_perceptron.png, id=77, 473.51906pt x 298.11375pt>
+<./images//2_perceptron.png, id=80, 473.51906pt x 298.11375pt>
 File: ./images//2_perceptron.png Graphic file (type png)
 <use ./images//2_perceptron.png>
 Package pdftex.def Info: ./images//2_perceptron.png  used on input line 6.
 (pdftex.def)             Requested size: 234.8775pt x 147.86926pt.
-<./images//2_2depth.png, id=78, 227.34938pt x 121.95563pt>
+<./images//2_2depth.png, id=81, 227.34938pt x 121.95563pt>
 File: ./images//2_2depth.png Graphic file (type png)
 <use ./images//2_2depth.png>
 Package pdftex.def Info: ./images//2_2depth.png  used on input line 55.
 (pdftex.def)             Requested size: 187.89914pt x 100.79512pt.
  [13 <./images//2_perceptron.png>]
-<./images//2_3depth.png, id=84, 295.85532pt x 149.05687pt>
+<./images//2_3depth.png, id=87, 295.85532pt x 149.05687pt>
 File: ./images//2_3depth.png Graphic file (type png)
 <use ./images//2_3depth.png>
 Package pdftex.def Info: ./images//2_3depth.png  used on input line 62.
 (pdftex.def)             Requested size: 187.89914pt x 94.66824pt.
-<./images//2_layer.png, id=85, 551.81157pt x 238.64156pt>
+<./images//2_layer.png, id=88, 551.81157pt x 238.64156pt>
 File: ./images//2_layer.png Graphic file (type png)
 <use ./images//2_layer.png>
 Package pdftex.def Info: ./images//2_layer.png  used on input line 73.
 (pdftex.def)             Requested size: 352.31625pt x 152.37321pt.
  [14 <./images//2_2depth.png> <./images//2_3depth.png> <./images//2_layer.png>]
-<./images//2_boolean_gate.png, id=92, 776.14969pt x 386.19281pt>
+<./images//2_boolean_gate.png, id=95, 776.14969pt x 386.19281pt>
 File: ./images//2_boolean_gate.png Graphic file (type png)
 <use ./images//2_boolean_gate.png>
 Package pdftex.def Info: ./images//2_boolean_gate.png  used on input line 90.
 (pdftex.def)             Requested size: 469.75502pt x 233.74458pt.
-<./images//2_universal_and.png, id=93, 688.07062pt x 348.55219pt>
+<./images//2_universal_and.png, id=96, 688.07062pt x 348.55219pt>
 File: ./images//2_universal_and.png Graphic file (type png)
 <use ./images//2_universal_and.png>
-Package pdftex.def Info: ./images//2_universal_and.png  used on input line 98.
+Package pdftex.def Info: ./images//2_universal_and.png  used on input line 106.
+
 (pdftex.def)             Requested size: 234.8775pt x 118.9795pt.
-) [15 <./images//2_boolean_gate.png> <./images//2_universal_and.png>] (main.aux
-) ) 
+ [15 <./images//2_boolean_gate.png> <./images//2_universal_and.png>]
+<./images//2_universal_or.png, id=102, 683.55376pt x 356.0803pt>
+File: ./images//2_universal_or.png Graphic file (type png)
+<use ./images//2_universal_or.png>
+Package pdftex.def Info: ./images//2_universal_or.png  used on input line 118.
+(pdftex.def)             Requested size: 234.8775pt x 122.3534pt.
+<./images//2_majority_gate.png, id=103, 613.54219pt x 311.66437pt>
+File: ./images//2_majority_gate.png Graphic file (type png)
+<use ./images//2_majority_gate.png>
+Package pdftex.def Info: ./images//2_majority_gate.png  used on input line 130.
+
+(pdftex.def)             Requested size: 234.8775pt x 119.31348pt.
+<./images//2_truth_table.png, id=104, 731.73375pt x 368.87813pt>
+File: ./images//2_truth_table.png Graphic file (type png)
+<use ./images//2_truth_table.png>
+Package pdftex.def Info: ./images//2_truth_table.png  used on input line 138.
+(pdftex.def)             Requested size: 469.75502pt x 236.8129pt.
+ [16 <./images//2_universal_or.png> <./images//2_majority_gate.png>])
+[17 <./images//2_truth_table.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3388 strings out of 478312
- 60751 string characters out of 5839263
- 1861340 words of memory out of 5000000
- 23504 multiletter control sequences out of 15000+600000
+ 14429 strings out of 478312
+ 301157 string characters out of 5839263
+ 1872340 words of memory out of 5000000
+ 34327 multiletter control sequences out of 15000+600000
  518970 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 72i,16n,77p,398b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Muhamad Ridzuan\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
-/ec/dpi600\tcrm1000.pk><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fon
-ts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roamin
-g/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Muhamad Ridzua
-n/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
-s/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming
-/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Muhamad Ridzuan/
-AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/M
-uhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.p
+ 84i,16n,89p,415b,900s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Muhamad Ridzuan\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Mu
+hamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/M
+iKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzuan/A
+ppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mu
+hamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr10.p
 fb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (15 pages, 1075703 bytes).
+onts/cm/cmr12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKT
+eX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad Ridzuan/AppDat
+a/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Muhama
+d Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+
+Output written on main.pdf (17 pages, 1223038 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

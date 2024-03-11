@@ -90,13 +90,67 @@ We are already aware with perceptron capability as a Boolean gate as it can mode
 	\includegraphics[width=\textwidth]{2_boolean_gate}
 \end{figure}
 
+\begin{itemize}
+	\item For the AND gate, the boundary condition is $X + Y \geq 2$
+	\item For the OR gate, the boundary condition is $X + Y \geq 1$
+	\item For the NOT gate, the boundary condition is $-X \geq 0$
+\end{itemize}
+
 \hfill\break
 It also enables us to compose a much more complex network, for example a universal AND gate where the network is only fired if every input fed to the network is true.
+
+\paragraph{Universal AND Gate}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{2_universal_and}
 \end{figure}
+
+Suppose that $X_1,X_2,...,X_L$ has weight value of $1$ and $X_{L+1},X_{L+2},...,X_N$ has weight value of $-1$, the condition for the perceptron to fire has to be:
+\begin{align}
+	(X_1+X_2+...+X_L) - (X_{L+1},X_{L+2},...,X_N) \geq L
+\end{align}
+
+\paragraph{Universal OR Gate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_universal_or}
+\end{figure}
+
+Suppose that $X_1,X_2,...,X_L$ has weight value of $1$ and $X_{L+1},X_{L+2},...,X_N$ has weight value of $-1$, the condition for the perceptron to fire has to be if any value of the first set is $1$ or any value from the second set is $0$:
+\begin{align}
+	(X_1+X_2+...+X_L) - (X_{L+1},X_{L+2},...,X_N) \geq L - N + 1
+\end{align}
+
+\paragraph{Generalized Majority Gate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_majority_gate}
+\end{figure}
+
+\hfill\break
+Any Booleans function can be represented by truth table. This would mean that we can use disjunctive function to express a one-hidden-layer MLP. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{2_truth_table}
+\end{figure}
+
+\hfill\break
+This lead to a new question, what is the largest number of perceptrons required in the single hidden layer for an N-input-variable function?
+
+\subsection{Karnaugh Map}
+
+\begin{Karnaugh}
+	\contingut{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+	\implicant{0}{2}{red}
+	\implicant{5}{15}{purple}
+	\implicantdaltbaix[3pt]{3}{10}{blue}
+	\implicantcantons[2pt]{orange}
+	\implicantcostats{4}{14}{green}
+\end{Karnaugh}
 
 \subsection{Summary}
 With enough ``depth'':
