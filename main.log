@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  12 MAR 2024 06:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  13 MAR 2024 06:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -756,7 +756,7 @@ Package pdftex.def Info: ./images//2_truth_table.png  used on input line 138.
 [17 <./images//2_truth_table.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
  14429 strings out of 478312
- 301157 string characters out of 5839263
+ 301149 string characters out of 5839263
  1872340 words of memory out of 5000000
  34327 multiletter control sequences out of 15000+600000
  518970 words of font info for 55 fonts, out of 8000000 for 9000
@@ -778,7 +778,7 @@ eX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad Ridzuan/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Muhama
 d Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 
-Output written on main.pdf (17 pages, 1223038 bytes).
+Output written on main.pdf (17 pages, 1223720 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
