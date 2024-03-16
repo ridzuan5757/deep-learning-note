@@ -191,15 +191,76 @@ Boolean function can be reduced using Karnaugh Map. It represent a truth table a
 \begin{figure}[H]
 	\centering
 	\begin{Karnaugh}{$WX$}{$YZ$}
-		\content{1,0,1,0,1,1,0,0,1,0,0,1,1,0,0,0}
+		\content{1,0,1,0,1,1,0,0,1,0,1,0,1,0,0,0}
+		\implicant{4}{5}{red}
+		\implicant{0}{8}{blue}
+		\implicanttopbottom[3pt]{2}{10}{green}
 	\end{Karnaugh}
 \end{figure}
 
+\hfill\break
+We can group these 3 neighbours together:
+
+\begin{align}
+	O = \bar{Y}\bar{Z} + \bar{W}X\bar{Y} + \bar{X}Y\bar{Z}
+\end{align}
+
+\begin{itemize}
+	\item Regardless value of $W$ and $X$, $Y$ and $Z$ is always $0$.
+	\item The function going to fire when $W$ is always $0$ while $X$ can be anything, while $Y$ has to always be $0$.
+	\item The other condition for it to fire is when $Y$ is always $1$ while $Z$ is always $0$ and $X$ is always $0$.
+\end{itemize}
 
 
+\hfill\break
+Although there are 8 conditions when the network will fire, only 3 perceptions is needed to construct the MLP. The general idea is, when we want to construct the DNF formula, we want to construct it with thee minimum number of clauses.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_reduced_dnf}
+\end{figure}
 
+\hfill\break
+On irreducible DNF, the size of required perceptrons in the hidden layer can get exponentially large ($2^{n-1}$).
 
+\begin{figure}[H]
+	\centering
+	\begin{Karnaugh}{$WX$}{$YZ$}
+		\content{1,0,0,1,0,1,1,0,0,1,1,0,1,0,0,1}
+	\end{Karnaugh}
+\end{figure}
+
+\hfill\break
+While the DNF cannot be reduced, this type of Boolean function can still be generalized. Is it possible to reduce the number of units if we use multiple hidden layers?
+
+This checkered pattern is a form of XOR Boolean function which become TRUE only if:
+\begin{itemize}
+	\item 1 flag is FALSE while the rest of the flags is TRUE.
+	\item 1 flag is TRUE while the rest of the flags is FALSE.
+\end{itemize}
+
+\begin{align}
+	O = W \oplus X \oplus Y \oplus Z
+\end{align}
+
+\hfill\break
+Since we need 1 hidden layer consisting of 2 perceptrons to construct XOR gate:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_xor}
+\end{figure}
+
+\hfill\break
+We can cascade the XOR gates to construct the solution for the MLP.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_xor_cascade}
+\end{figure}
+
+\hfill\break
+For cascading XOR gates with 4 parameter, 9 perceptrons would be required to construct the Boolean function MLP. The solution of the cascading XOR gates would be $3\times (N-1)$ number of perceptrons. These can be arranged in only $2\log_2(N)$ layers.
 
 \subsection{Summary}
 With enough ``depth'':
