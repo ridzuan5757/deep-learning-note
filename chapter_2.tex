@@ -131,26 +131,75 @@ Suppose that $X_1,X_2,...,X_L$ has weight value of $1$ and $X_{L+1},X_{L+2},...,
 \end{figure}
 
 \hfill\break
-Any Booleans function can be represented by truth table. This would mean that we can use disjunctive function to express a one-hidden-layer MLP. 
+Due to perceptrons being able to model Boolean functions, they able to model complex things that are made of Boolean functions. This also means that for any odd Boolean function, wee can construct a multi-layerr perceptron that can compute this Boolean function. This is what is meant by MLPs being a universal Boolean functions. For any Boolean functions, regardless of their complexity, we can compose an MLP that will compute said function. This lead to a new question, how many layers will they need to be sufficient at modeling said Boolean function? What is the smallest number of layers will be required?
+
+
+\hfill\break
+Any Booleans function can be represented by a truth table. For example:
+
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			$X_1$    & $X_2$     & $X_3$    & $X_4$    & $X_5$    & $Y$   \\
+			\hline
+			0        & 0        & 1        & 1        & 0        & 1     \\
+			0        & 1        & 0        & 1        & 1        & 1     \\
+			0        & 1        & 1        & 0        & 0        & 1     \\
+			1        & 0        & 0        & 0        & 1        & 1     \\
+			1        & 0        & 1        & 1        & 1        & 1     \\
+			1        & 1        & 0        & 0        & 1        & 1     \\
+			\hline
+	\end{tabular}
+\end{table}
+
+\hfill\break
+In order to get a Boolean function that represent this table, we only have to list the portion of the table that corresponds to the output 1. We can write it as disjunctive normal formula for this table. 
+
+\begin{align}
+	Y = \bar{X_1}\bar{X_2}X_3X_4\bar{X_5} + \bar{X_1}X_2\bar{X_3}X_4X_5 + \bar{X_1}X_2X_3\bar{X_4}\bar{X_5} +\\ X_1\bar{X_2}\bar{X_3}\bar{X_4}X_5 + X_1\bar{X_2}X_3X_4X_5 + X_1X_2\bar{X_3}\bar{X_4}X_5
+\end{align}
+
+\hfill\break
+Once we have obtained the Boolean function in this manner, we can create an MLP where each of the perceptron is an Universal AND gate. These perceptrons is then combined as Universal OR gate.
+
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{2_truth_table}
+	\includegraphics[width=0.5\textwidth]{2_truth_table}
 \end{figure}
 
 \hfill\break
-This lead to a new question, what is the largest number of perceptrons required in the single hidden layer for an N-input-variable function?
+This would means that MLP with 1 layer is sufficient enough to model any Boolean Function. This lead to a new question, what is the largest number of perceptrons required in the single hidden layer for an N-input-variable function?
 
 \subsection{Karnaugh Map}
+Boolean function can be reduced using Karnaugh Map. It represent a truth table as a grid. Adjacent boxes can be ``grouped'' to reduce the DNF formula for the table.
 
-\begin{Karnaugh}{$v_w$}{$x_y$}
-	\content{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
-	\implicant{0}{2}{red}
-	\implicant{5}{15}{purple}
-	\implicanttopbottom[3pt]{1}{10}{blue}
-	\implicantcorners[2pt]{orange}
-	\implicantside{4}{14}{green}
-\end{Karnaugh}
+%\begin{figure}[H]
+%\centering
+%\begin{Karnaugh}{$v_w$}{$x_y$}
+%	\content{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
+%	\implicant{0}{2}{red}
+%	\implicant{5}{15}{purple}
+%	\implicanttopbottom[3pt]{1}{10}{blue}
+%	\implicantcorners[2pt]{orange}
+%	\implicantside{4}{14}{green}
+%\end{Karnaugh}
+%\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{Karnaugh}{$WX$}{$YZ$}
+		\content{1,0,1,0,1,1,0,0,1,0,0,1,1,0,0,0}
+	\end{Karnaugh}
+\end{figure}
+
+
+
+
+
+
 
 \subsection{Summary}
 With enough ``depth'':

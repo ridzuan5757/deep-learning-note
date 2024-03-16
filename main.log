@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  13 MAR 2024 06:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  16 MAR 2024 14:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -747,21 +747,22 @@ File: ./images//2_majority_gate.png Graphic file (type png)
 Package pdftex.def Info: ./images//2_majority_gate.png  used on input line 130.
 
 (pdftex.def)             Requested size: 234.8775pt x 119.31348pt.
-<./images//2_truth_table.png, id=104, 731.73375pt x 368.87813pt>
+ [16 <./images//2_universal_or.png> <./images//2_majority_gate.png>]
+<./images//2_truth_table.png, id=109, 363.60844pt x 190.46156pt>
 File: ./images//2_truth_table.png Graphic file (type png)
 <use ./images//2_truth_table.png>
-Package pdftex.def Info: ./images//2_truth_table.png  used on input line 138.
-(pdftex.def)             Requested size: 469.75502pt x 236.8129pt.
- [16 <./images//2_universal_or.png> <./images//2_majority_gate.png>])
+Package pdftex.def Info: ./images//2_truth_table.png  used on input line 170.
+(pdftex.def)             Requested size: 234.8775pt x 123.0342pt.
+)
 [17 <./images//2_truth_table.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 14429 strings out of 478312
- 301149 string characters out of 5839263
- 1872340 words of memory out of 5000000
- 34327 multiletter control sequences out of 15000+600000
+ 14413 strings out of 478312
+ 300897 string characters out of 5839263
+ 1876340 words of memory out of 5000000
+ 34311 multiletter control sequences out of 15000+600000
  518970 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 84i,16n,89p,415b,900s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,16n,89p,647b,1004s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Muhamad Ridzuan\AppDa
 ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Mu
 hamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx10.
@@ -778,7 +779,7 @@ eX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad Ridzuan/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Muhama
 d Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 
-Output written on main.pdf (17 pages, 1223720 bytes).
+Output written on main.pdf (17 pages, 1190033 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
