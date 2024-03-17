@@ -260,7 +260,40 @@ We can cascade the XOR gates to construct the solution for the MLP.
 \end{figure}
 
 \hfill\break
-For cascading XOR gates with 4 parameter, 9 perceptrons would be required to construct the Boolean function MLP. The solution of the cascading XOR gates would be $3\times (N-1)$ number of perceptrons. These can be arranged in only $2\log_2(N)$ layers.
+For cascading XOR gates with 4 parameter, 9 perceptrons would be required to construct the Boolean function MLP. The solution of the cascading XOR gates would be $3\times (N-1)$ number of perceptrons. 
+
+These can be arranged in only $2\log_2(N)$ layers. Suppose that wee have $X_1, X_2, ..., X_N$ number of perception. We can keep pairing terms such as:
+
+\begin{align}
+	O &= X_1 \oplus X_2 \oplus X_3 \oplus X_4 \oplus X_5 \oplus X_6 \oplus X_7 \oplus X_8\\
+	O &= ((X_1 \oplus X_2) \oplus (X_3 \oplus X_4)) \oplus ((X_5 \oplus X_6) \oplus (X_7 \oplus X_8))
+\end{align}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{2_multi_layer_xor}
+\end{figure}
+
+\paragraph{Implementation of MLP on K-layer.}
+Using only K-hidden layers will require $2^{CN}$ neurons in the K-th layer, where
+
+\begin{align}
+	C = 2^{-\frac{K-1}{2}}
+\end{align}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{2_k_layer_xor}
+\end{figure}
+
+\hfill\break
+Going through the layer until the K-th layer, we keep reducing the number of neutrons by factor of $2$. However, we still have to XOR whatever number of neutrons left on the K-th layer, exponentially increasing the number of neutrons.
+
+\begin{itemize}
+	\item Because the output is the XOR for all the $\frac{N}{2^{\frac{K-1}{2}}}$ values output by the K-1-th hidden layer.
+	\item In other word, reducing the numbers of layers below the minimum will result in an exponentially sized network to express the function fully.
+	\item A network with fewer than minimum required number of neutrons cannot model the function.
+\end{itemize}
 
 \subsection{Summary}
 With enough ``depth'':
