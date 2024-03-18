@@ -274,7 +274,7 @@ These can be arranged in only $2\log_2(N)$ layers. Suppose that wee have $X_1, X
 	\includegraphics[width=0.75\textwidth]{2_multi_layer_xor}
 \end{figure}
 
-\paragraph{Implementation of MLP on K-layer.}
+\subsection{Implementation of MLP on K-layer.}
 Using only K-hidden layers will require $2^{CN}$ neurons in the K-th layer, where
 
 \begin{align}
@@ -295,10 +295,72 @@ Going through the layer until the K-th layer, we keep reducing the number of neu
 	\item A network with fewer than minimum required number of neutrons cannot model the function.
 \end{itemize}
 
-\subsection{Summary}
-With enough ``depth'':
-\begin{itemize}
-	\item MLP as universal Boolean functions.
-	\item MLP as universal classifiers.
-	\item MLP as universal approximators.
-\end{itemize}
+\subsection{Network Parameters.}
+The actual number of parameters in a network is the number of connections. For example, for a network with 1 hidden layer consisting of 5 neutrons, the number of parameters in a network is 30.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{2_1_layer_mlp}
+\end{figure}
+
+This is the number that really matters in software or hardware implementation of the neural networks. Networks that require an exponential number of neurons will require an exponential number of weights.
+
+\subsection{Composing complicated ``decision'' boundary.}
+Once we can computes a linear boundary, we can compose more complex decision boundary as shown below.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_penta_boundary}
+\end{figure}
+
+\hfill\break
+Recall that should we have pentagonal boundary, that would means that we have boundaries for each sides of the pentagon and the network will fire if the input value exceeds the boundary threshold value. One thing to notice that, only within the pentagon are all five perceptrons going to output $1$. This would imply that the network will fire if \textbf{sum of all of the output} exceeds the \textbf{sum of the threshold boundary value}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{2_sum_output}
+\end{figure}
+
+And if there is more than one closed boundaries, we have to OR them together to get the complex decision boundary. This would means that a third layer would be required.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{1_complex}
+\end{figure}
+
+The question is, is it possible to compose these decision boundaries with only one hidden layer?
+
+\paragraph{Case: Square boundary}
+The sum of the output of the inner boundary is 4. Instead of having output layer of AND-ing all of the output of the previous layer perceptron, we just set the threshold value to be the sum of the threshold value of the individual perceptron. The last output neuron is performing SUM instead of AND.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{2_square_boundary}
+\end{figure}
+
+\paragraph{Case: Pentagon boundary}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{2_pentagon_boundary}
+\end{figure}
+
+\paragraph{Case: Hexagon boundary}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{2_hexagon_boundary}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
