@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  19 MAR 2024 07:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  20 MAR 2024 07:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -804,58 +804,80 @@ File: ./images//1_complex.png Graphic file (type png)
 <use ./images//1_complex.png>
 Package pdftex.def Info: ./images//1_complex.png  used on input line 328.
 (pdftex.def)             Requested size: 469.75502pt x 233.70477pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--337
+
+ []
+
 <./images//2_square_boundary.png, id=146, 707.64375pt x 301.125pt>
 File: ./images//2_square_boundary.png Graphic file (type png)
 <use ./images//2_square_boundary.png>
-Package pdftex.def Info: ./images//2_square_boundary.png  used on input line 33
-8.
+Package pdftex.def Info: ./images//2_square_boundary.png  used on input line 34
+0.
 (pdftex.def)             Requested size: 469.75502pt x 199.8964pt.
- [22 <./images//2_sum_output.png>]
+[22 <./images//2_sum_output.png>]
 <./images//2_pentagon_boundary.png, id=151, 767.11594pt x 431.36156pt>
 File: ./images//2_pentagon_boundary.png Graphic file (type png)
 <use ./images//2_pentagon_boundary.png>
 Package pdftex.def Info: ./images//2_pentagon_boundary.png  used on input line 
-345.
+348.
 (pdftex.def)             Requested size: 469.75502pt x 264.15697pt.
 <./images//2_hexagon_boundary.png, id=152, 727.96968pt x 318.43968pt>
 File: ./images//2_hexagon_boundary.png Graphic file (type png)
 <use ./images//2_hexagon_boundary.png>
 Package pdftex.def Info: ./images//2_hexagon_boundary.png  used on input line 3
-51.
+56.
 (pdftex.def)             Requested size: 469.75502pt x 205.49162pt.
- [23 <./images//2_square_boundary.png> <./images//2_pentagon_boundary.png>]) [2
-4 <./images//2_hexagon_boundary.png>] (main.aux) ) 
+ [23 <./images//2_square_boundary.png> <./images//2_pentagon_boundary.png>]
+<./images//2_composite_boundary.png, id=157, 832.61063pt x 342.5297pt>
+File: ./images//2_composite_boundary.png Graphic file (type png)
+<use ./images//2_composite_boundary.png>
+Package pdftex.def Info: ./images//2_composite_boundary.png  used on input line
+ 364.
+(pdftex.def)             Requested size: 469.75502pt x 193.25262pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--376
+[]
+ []
+
+[24 <./images//2_hexagon_boundary.png> <./images//2_composite_boundary.png>])
+[25] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 14547 strings out of 478312
- 304671 string characters out of 5839263
+ 14558 strings out of 478312
+ 305058 string characters out of 5839263
  1878340 words of memory out of 5000000
- 34445 multiletter control sequences out of 15000+600000
+ 34456 multiletter control sequences out of 15000+600000
  518970 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  84i,16n,89p,647b,1004s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Muhamad Ridzuan\Ap
-pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users
-/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roamin
-g/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzua
-n/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users
-/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi
-7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/M
-iKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/Ap
-pData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Muha
-mad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-<C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type
-1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX
-/2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Muhamad Ridzuan/AppData
-/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (24 pages, 1957182 bytes).
+ <C:\Users\Muhamad Ridzuan\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Muhamad Ridzuan/AppData/Roaming/
+MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Muhamad Ridzuan/
+AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/
+Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/font
+s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/
+MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Muhamad Ridzuan/A
+ppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mu
+hamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsf
+onts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTe
+X/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad Ridzuan/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Muhamad
+ Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C
+:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (25 pages, 2023871 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
+ 233 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

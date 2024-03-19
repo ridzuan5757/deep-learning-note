@@ -330,7 +330,9 @@ And if there is more than one closed boundaries, we have to OR them together to 
 
 The question is, is it possible to compose these decision boundaries with only one hidden layer?
 
-\paragraph{Case: Square boundary}
+\hfill\break
+\textbf{Case: Square boundary}
+\\\\
 The sum of the output of the inner boundary is 4. Instead of having output layer of AND-ing all of the output of the previous layer perceptron, we just set the threshold value to be the sum of the threshold value of the individual perceptron. The last output neuron is performing SUM instead of AND.
 
 \begin{figure}[H]
@@ -338,20 +340,49 @@ The sum of the output of the inner boundary is 4. Instead of having output layer
 	\includegraphics[width=\textwidth]{2_square_boundary}
 \end{figure}
 
-\paragraph{Case: Pentagon boundary}
+\hfill\break
+\textbf{Case: Pentagon boundary}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{2_pentagon_boundary}
 \end{figure}
 
-\paragraph{Case: Hexagon boundary}
+\hfill\break
+\textbf{Case: Hexagon boundary}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{2_hexagon_boundary}
 \end{figure}
 
+\hfill\break
+What if we want to compose composite decision boundary with single hidden layer?
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{2_composite_boundary}
+\end{figure}
+
+\hfill\linebreak
+If we could just somehow finagle these boundaries, it would not be possible because some of the sides of the lower pentagon will intercept with some of the edges of the upper pentagon. So any threshold that can capture lower pentagon will accidentally capture the upper pentagon region that is outside of the region of the lower pentagon.
+
+Consider a square polygon. We would need a network with four neuron in a hidden layer to be able to describe the decision boundary. The threshold value on the side area of the polygon would be 3 and the rest of the area will have threshold value of 2. The same principle will apply to higher dimension polygon where the threshold value would be $s$, $s-1$, $s-2$ $...$ .
+
+We can observe that the first outer layer that is adjacent with the decision boundary would have $s-1$ threshold value. Another observation that could be noticed is that the sum of the area that is outside the decision boundary will always bigger than the sum inside poligon.
+
+\hfill\linebreak
+\textbf{Case: Pentagon}
+
+\begin{align*}
+	\text{Inner threshold value} &= 5 \\
+	\text{Sum of the threshold value of the first outer layer} &= 4 \times 5 \\
+	&= 20 \\
+	\text{Sum of the threshold value of the second outer layer} &= 3 \times 5 \\
+	&= 15 \\
+	\text{Sum of the threshold value of the last outer layer} &= 2 \times 5 \\
+	&= 10 \\
+\end{align*}
 
 
 
