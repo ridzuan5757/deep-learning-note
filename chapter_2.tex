@@ -384,10 +384,23 @@ We can observe that the first outer layer that is adjacent with the decision bou
 	&= 10 \\
 \end{align*}
 
+\hfill\break
+Another observation that could be made is that as the number of the decision boundary increases, the size of the first outer layer will be decreasing. Looking back at the possibility of creating single layer MLP for composite boundary, say if we want to compose a single hidden layer MLP for these outer regions, it would be possible only if the region is really small and does not overlap with the first outer region of another boundary. That being said, constructing MLP for composite boundaries would be possible if these regions are so small that it would not overlap with each other.
 
+\hfill\break
+Since for any polygons, the size of the first outer layer will be smaller as the number of sides / decision boundary increases, this would means a circle would have the smallest area of first outer layer since the number of edges $\rightarrow\infty$. Increasing the number of sides will reduces the area outside the polygon that have $\frac{N}{2}<\sum_{i}{y_i}<N$.
 
+\hfill\break
+Hypothetically speaking, this would means for a single layer MLP for decision boundary of circle:
+\begin{itemize}
+	\item The number of neurons will become infinitely large.
+	\item Sum of N inside the circle, $\frac{N}{2}$ outside almost everywhere.
+\end{itemize}
 
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{2_circle_mlp}
+\end{figure}
 
 
 
