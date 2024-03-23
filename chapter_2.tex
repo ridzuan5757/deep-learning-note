@@ -470,12 +470,34 @@ This would also means that we can compose the first layer of the network as stan
 \hfill\break
 The typical XOR network will require $16 + 155\times 3 = 61$ neurons. It is also possible to achieve the network with 46 neurons if we are using two-neurons XOR model. We can summarized that the number of neurons required in shallow network is potentially exponential in the dimensionality of the input. Deeper networks may require far fewer neurons than shallower networks to express the same function, making them much more expressive and smaller than their single layer counterparts.
 
+\subsection{Sufficiency of Architecture.}
 
+A neural network can represent any function provided that it is sufficiently abroad and deep to represent the function, however not all architectures can represent any function. Consider a boundary condition shown below:
 
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_checker_boundary}
+\end{figure}
 
+\hfill\break
+A network with 16 or more neurons in the first layer is capable of representing the boundary condition perfectly. However, a network that is having less than 16 neurons in the first layer would not be able to represent this pattern exactly. 
 
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_16}
+\end{figure}
 
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_not_16}
+\end{figure}
 
+\hfill\break
+This is because a network with $x$ threshold neurons in the first layer may only capture $x$ number of boundaries. This gives information about which boundary where the threshold is applied to, but not where the boundary is. Similarly restriction is also applied to the higher layers. A 2-layer network with 16 neurons in the first layer alone are not sufficient to represent the checkered region of the pattern if the second layer is having less than 40 neurons inside it. Regardless of depth, every layer must be sufficiently wide in order to express the function accurately.
+\\\\
+This is because we are using the threshold activation value. It gates information in the input from the later layer since the output is either $0$ or $1$. This will lead to a pattern of outputs within any region is identical while the subsequent layers do not obtain enough information to partition them. In order to maintain the position information such as the distance from a boundary, a continuous activation function such as sigmoid function has to be used.
+\\\\
+A continuous activation functions result in graded output at the layer. The gradation provides information to subsequent layers, to capture information ``missed'' by the lower layer.
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  23 MAR 2024 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  23 MAR 2024 20:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -888,39 +888,66 @@ File: ./images//2_first_layer_xor.png Graphic file (type png)
 Package pdftex.def Info: ./images//2_first_layer_xor.png  used on input line 46
 7.
 (pdftex.def)             Requested size: 234.8775pt x 197.54565pt.
-) [28 <./images//2_2_layer_mlp.png> <./images//2_first_layer_xor.png>] (main.au
-x) ) 
+<./images//2_checker_boundary.png, id=184, 229.60782pt x 190.46156pt>
+File: ./images//2_checker_boundary.png Graphic file (type png)
+<use ./images//2_checker_boundary.png>
+Package pdftex.def Info: ./images//2_checker_boundary.png  used on input line 4
+79.
+(pdftex.def)             Requested size: 234.8775pt x 194.84363pt.
+ [28 <./images//2_2_layer_mlp.png> <./images//2_first_layer_xor.png>]
+<./images//2_16.png, id=190, 207.77625pt x 138.5175pt>
+File: ./images//2_16.png Graphic file (type png)
+<use ./images//2_16.png>
+Package pdftex.def Info: ./images//2_16.png  used on input line 487.
+(pdftex.def)             Requested size: 234.8775pt x 156.59058pt.
+<./images//2_not_16.png, id=191, 207.77625pt x 140.02313pt>
+File: ./images//2_not_16.png Graphic file (type png)
+<use ./images//2_not_16.png>
+Package pdftex.def Info: ./images//2_not_16.png  used on input line 492.
+(pdftex.def)             Requested size: 234.8775pt x 158.29265pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--501
+
+ []
+
+[29 <./images//2_checker_boundary.png> <./images//2_16.png> <./images//2_not_16
+.png>]) [30] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 14635 strings out of 478312
- 307382 string characters out of 5839263
+ 14668 strings out of 478312
+ 308213 string characters out of 5839263
  1878340 words of memory out of 5000000
- 34533 multiletter control sequences out of 15000+600000
+ 34566 multiletter control sequences out of 15000+600000
  518970 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  84i,16n,89p,647b,1004s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Muhamad Ridzuan\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
-n/ec/dpi600\tcrm1000.pk><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fo
-nts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roami
-ng/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Muhamad Ridzu
-an/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Use
-rs/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roamin
-g/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Muhamad Ridzuan
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
-Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr17
-.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/am
-sfonts/cm/cmr5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKT
-eX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Muhamad Ridzuan/AppD
-ata/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Muham
-ad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-<C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfont
-s/cm/cmti10.pfb>
-Output written on main.pdf (28 pages, 2640536 bytes).
+ <C:\Users\Muhamad Ridzuan\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Muhamad Ridzuan/AppData/
+Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Muhamad 
+Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/
+2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Muhamad Ridzuan/AppData/
+Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Muhamad R
+idzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/
+fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roami
+ng/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad Ridzuan
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
+/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy
+5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts
+/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (30 pages, 2736890 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
+ 267 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
