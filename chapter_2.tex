@@ -402,6 +402,78 @@ Hypothetically speaking, this would means for a single layer MLP for decision bo
 	\includegraphics[width=\textwidth]{2_circle_mlp}
 \end{figure}
 
+Based on the MLP constructed, if we sum all of these outputs and use a threshold:
+
+\begin{align}
+	\sum^N_{i=1}\mathbf{y}_i - \frac{N}{2} \geq 0
+\end{align}
+
+\hfill\break
+A decision boundary for a perfect circle can be obtained. We also can take a 2 different circle subnets which compose of circles in two different position and still use the same threshold value on the output perceptron. This is because the ``sum'' of two circles of the individual subnets is exactly $\frac{N}{2}$ inside either circle and almost $0$ everywhere outside of the circles.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{2_multiple_circles}
+\end{figure}
+
+\hfill\break
+This would also means that it is possible to use subnets of circle decision boundary to compose any arbitrary figure. We just have have to fill in the composite shapes with enough circle decision boundary. An accurate approximation could be achieved with greater number of smaller circles. This demonstrate the capabilities of one hidden layer MLP being able to model any classification boundary with enough number of neurons.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{2_circle_mlp_composite}
+\end{figure}
+
+\subsection{Performance comparison between deep network and single layer network.}
+ 
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=\textwidth]{2_deep_vs_one}
+ \end{figure}
+ 
+Deep networks require far fewer neutrons to achieve the same result. Depending on the compleexity of the decision boundary, a naive one-hidden-layer neural network will require infinite hidden neurons. For example, consider an image below, a single layer MLP would require infinite amount of neurons as sum of subset of the circles that is going to be filled into the yellow region.
+
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{2_infinite}
+\end{figure}
+
+\hfill\break
+Howerver, if observed carefully, this image contains 16 lines and 40 segments forming the yellow regions. This would means that we can compose a 2 hidden layer MLP  where every individual neurons on the same layer are XOR-ed together such that
+
+\begin{itemize}
+	\item 16 neurons on the first hidden layer.
+	\item 40 neurons on the second hidden layer.
+	\item 1 neurons on the output layer.
+\end{itemize}
+
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_2_layer_mlp}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
