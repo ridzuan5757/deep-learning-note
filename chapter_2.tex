@@ -452,6 +452,23 @@ Howerver, if observed carefully, this image contains 16 lines and 40 segments fo
 	\includegraphics[width=0.5\textwidth]{2_2_layer_mlp}
 \end{figure}
 
+\hfill\break
+Alternatively, we could observe that the output of the first layer is every 16 individual lines of the decision boundary $Y$, it form a pattern such that for a single neuron that corresponds to each of the line to fire, it is XOR-ed with the rest of the neurons of every other lines. This would mean that the output of the network is:
+
+\begin{align}
+	Y_1 \oplus Y_2 \oplus ... \oplus Y_{16}
+\end{align}
+
+\hfill\break
+This would also means that we can compose the first layer of the network as standard XOR network:
+
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2_first_layer_xor}
+\end{figure}
+
+\hfill\break
+The typical XOR network will require $16 + 155\times 3 = 61$ neurons. It is also possible to achieve the network with 46 neurons if we are using two-neurons XOR model. We can summarized that the number of neurons required in shallow network is potentially exponential in the dimensionality of the input. Deeper networks may require far fewer neurons than shallower networks to express the same function, making them much more expressive and smaller than their single layer counterparts.
 
 
 

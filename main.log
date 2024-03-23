@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  23 MAR 2024 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  23 MAR 2024 18:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -881,39 +881,46 @@ File: ./images//2_2_layer_mlp.png Graphic file (type png)
 <use ./images//2_2_layer_mlp.png>
 Package pdftex.def Info: ./images//2_2_layer_mlp.png  used on input line 452.
 (pdftex.def)             Requested size: 234.8775pt x 165.98772pt.
- [27 <./images//2_deep_vs_one.png> <./images//2_infinite.png>]) [28 <./images//
-2_2_layer_mlp.png>] (main.aux) ) 
+ [27 <./images//2_deep_vs_one.png> <./images//2_infinite.png>]
+<./images//2_first_layer_xor.png, id=183, 374.14781pt x 314.67563pt>
+File: ./images//2_first_layer_xor.png Graphic file (type png)
+<use ./images//2_first_layer_xor.png>
+Package pdftex.def Info: ./images//2_first_layer_xor.png  used on input line 46
+7.
+(pdftex.def)             Requested size: 234.8775pt x 197.54565pt.
+) [28 <./images//2_2_layer_mlp.png> <./images//2_first_layer_xor.png>] (main.au
+x) ) 
 Here is how much of TeX's memory you used:
- 14624 strings out of 478312
- 307028 string characters out of 5839263
+ 14635 strings out of 478312
+ 307382 string characters out of 5839263
  1878340 words of memory out of 5000000
- 34522 multiletter control sequences out of 15000+600000
+ 34533 multiletter control sequences out of 15000+600000
  518970 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  84i,16n,89p,647b,1004s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Muhamad Ridzuan\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Muhamad Ridzuan/A
-ppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/M
-uhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx12
+ <C:\Users\Muhamad Ridzuan\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
+n/ec/dpi600\tcrm1000.pk><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fo
+nts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roami
+ng/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Muhamad Ridzu
+an/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Use
+rs/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roamin
+g/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Muhamad Ridzuan
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
+Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr17
 .pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/am
-sfonts/cm/cmex10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/
-MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Muhamad Ridzuan/A
-ppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mu
-hamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKT
-eX/2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Muhamad Ridzuan/AppDat
-a/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad 
-Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
-:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/
-cm/cmsy5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.
-9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (28 pages, 2600295 bytes).
+sfonts/cm/cmr5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKT
+eX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Muhamad Ridzuan/AppD
+ata/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Muham
+ad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+<C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfont
+s/cm/cmti10.pfb>
+Output written on main.pdf (28 pages, 2640536 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
+ 255 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
