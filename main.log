@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  24 MAR 2024 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  25 MAR 2024 07:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -23,6 +23,36 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.st
+y
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics-cfg\col
+or.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics-def\pdf
+tex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics\mathcol
+or.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics\dvipsna
+m.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.st
 y
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/l3key
@@ -99,11 +129,7 @@ phics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics-def\pdf
-tex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-))
+)
 \Gin@req@height=\dimen149
 \Gin@req@width=\dimen150
 )
@@ -275,28 +301,6 @@ File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 r\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.st
-y
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
-
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics-cfg\col
-or.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 227.
-
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics\mathcol
-or.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-)
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer
 \pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
@@ -696,24 +700,61 @@ File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
 yer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/
+shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
+yer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
 
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp
+-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count308
+\scratchdimen=\dimen280
+\scratchbox=\box68
+\nofMPsegments=\count309
+\nofMParguments=\count310
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count311
+\MPscratchDim=\dimen281
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
+\everyMPtoPDFconversion=\toks45
+)
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/epstopdf-pkg\eps
+topdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/00miktex\epstopd
+f-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -748,32 +789,6 @@ LaTeX Font Info:    ... okay on input line 165.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp
--pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen280
-\scratchbox=\box68
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen281
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks45
-)
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/epstopdf-pkg\eps
-topdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/00miktex\epstopd
-f-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
@@ -1153,36 +1168,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--612
 
  []
 
-[31] [32]) [33] (main.aux) ) 
+[31] [32]) (chapter_3.tex) [33] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 26568 strings out of 478312
- 703752 string characters out of 5839263
- 2128090 words of memory out of 5000000
- 46281 multiletter control sequences out of 15000+600000
+ 27246 strings out of 478312
+ 719828 string characters out of 5839263
+ 2153535 words of memory out of 5000000
+ 46942 multiletter control sequences out of 15000+600000
  518970 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 84i,16n,89p,730b,2157s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Muhamad Ridzuan\AppData\Local\MiKTeX\2.9
-\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Muhamad Ridzuan/AppDa
-ta/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Muham
-ad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+ 84i,16n,85p,702b,2163s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Muhamad Ridzuan\AppData\
+Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Muham
+ad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKT
-eX/2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Muhamad Ridzuan/AppDa
-ta/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Muhama
-d Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/
-public/amsfonts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2
-.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Muhamad Ridzuan/AppData/Ro
-aming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad Ridz
-uan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
+ts/cm/cmbx12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKT
+eX/2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzuan/AppD
+ata/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Muham
+ad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/
+2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/AppData/
+Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Muhamad Ri
+dzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
 ers/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/c
-msy5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (33 pages, 2825799 bytes).
+msy10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roami
+ng/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (33 pages, 2826695 bytes).
 PDF statistics:
  277 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
