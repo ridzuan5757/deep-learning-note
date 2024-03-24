@@ -8,13 +8,19 @@
 \usepackage{amsmath}
 \usepackage{float}
 \usepackage{tikz}
+\usepackage{pgfplots}
 \graphicspath{ {./images/} }
 % Title information
 \title{Neural Network Note}
 \author{Muhamad Ridzuan}
 \date{\today} % Use \date{} for no date or specify a date
 
-%% tikz config
+\pgfplotsset{width=0.5\textwidth,compat=1.9}
+\usepgfplotslibrary{external}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{fillbetween}
+
+%% tikz config for K-maps
 \usetikzlibrary{matrix,calc}
 %isolated term
 %#1 - Optional. Space between node and grouping line. Default=0

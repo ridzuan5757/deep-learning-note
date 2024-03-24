@@ -496,14 +496,115 @@ A network with 16 or more neurons in the first layer is capable of representing 
 This is because a network with $x$ threshold neurons in the first layer may only capture $x$ number of boundaries. This gives information about which boundary where the threshold is applied to, but not where the boundary is. Similarly restriction is also applied to the higher layers. A 2-layer network with 16 neurons in the first layer alone are not sufficient to represent the checkered region of the pattern if the second layer is having less than 40 neurons inside it. Regardless of depth, every layer must be sufficiently wide in order to express the function accurately.
 \\\\
 This is because we are using the threshold activation value. It gates information in the input from the later layer since the output is either $0$ or $1$. This will lead to a pattern of outputs within any region is identical while the subsequent layers do not obtain enough information to partition them. In order to maintain the position information such as the distance from a boundary, a continuous activation function such as sigmoid function has to be used.
-\\\\
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		% grid
+		\draw[help lines,dashed] (0,0) grid (10.25, 7.25);
+		
+		% Axes
+		\draw[very thick,-latex, gray] (0,0) -- (10.5,0) 
+		node[below]{$x$};
+		
+		\draw[very thick,-latex, gray] (5,0) -- (5,7.25) 
+		node[left]{$y(x)$};
+		
+		\draw[ultra thick,teal] (0,0) node[left,black](s0){$$}
+		
+		plot[domain=0:5,
+		samples = 50,
+		smooth]({\x}, {0})
+		
+		
+		plot[domain=5:10,
+		samples = 50,
+		smooth]({\x}, {6});
+		
+		\draw[dashed, ultra thick, teal] (5,0) -- (5,6);
+		
+	\end{tikzpicture}
+\end{figure}
+
+\hfill\break
+This activation function caused a well defined boundary limit which lead to the following pattern.
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			width=11.25cm,
+			height=11.25cm,
+			axis lines = middle,
+			grid=both,
+			xlabel = {$x$},
+			ylabel = {$y$},
+			xmin=-10, xmax=10,
+			ymin=-10, ymax=10]
+			every axis plot/.append style={ultra thick},
+		
+			\addplot [name path = A,
+			-latex,
+			domain = -10:12,
+			samples = 1000] {x + 7} 
+			node [very near end, right] {$$};
+			
+			\addplot [name path = B,
+			-latex,
+			domain = -10:12,
+			samples = 1000] {x + 3} 
+			node [very near end, right] {$$};
+			
+			\addplot [name path = C,
+			-latex,
+			domain = -10:12,
+			samples = 1000] {x + -1} 
+			node [very near end, right] {$$};
+			
+			\addplot [name path = D,
+			-latex,
+			domain = -10:12,
+			samples = 1000] {x + -5} 
+			node [very near end, right] {$$};
+			
+			\addplot [teal, opacity=0.4] fill between [of = A and B, soft clip={domain=-10:12}];
+			\addplot [yellow, opacity=0.4] fill between [of = B and C, soft clip={domain=-10:12}];
+			\addplot [magenta, opacity=0.4] fill between [of = C and D, soft clip={domain=-10:12}];
+			
+		\end{axis}
+	\end{tikzpicture}
+\end{figure}
+
+\hfill\break
 A continuous activation functions result in graded output at the layer. The gradation provides information to subsequent layers, to capture information ``missed'' by the lower layer.
 
-
-
-
-
-
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		% grid
+		\draw[help lines,dashed] (-5,-.5) grid (5, 7.5);
+		
+		% Axes
+		\draw[very thick,-latex, gray] (-5.5,0) -- (5.5,0) 
+		node[below]{$t$};
+		
+		\draw[very thick,-latex, gray] (0,-.5) -- (0,7.25) 
+		node[left]{$y(t)$};
+		
+		\draw[ultra thick,teal] (0,0) node[left,black](s0){$$}
+		
+		plot[domain=-5:5,
+		samples = 50,
+		smooth]({\x}, {7/(1 + exp(-\x))});
+		
+		\draw[dashed, ultra thick, magenta] (-2,-.5) -- (-2,7);
+		\draw[dashed, ultra thick, cyan] (2,-.5) -- (2,7);
+		
+		\draw[<->, ultra thick, magenta] (-2,-.5) -- (0,-.5);
+		\draw[<->, ultra thick, cyan] (-0,-.5) -- (2,-.5);
+		
+	\end{tikzpicture}
+\end{figure}
 
 
 

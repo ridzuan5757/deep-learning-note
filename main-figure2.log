@@ -1,11 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  24 MAR 2024 08:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  24 MAR 2024 06:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**./main.tex
+**\def\tikzexternalrealjob{main}\input{main}
 (main.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-02>
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/base\size10.clo
@@ -111,7 +109,6 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip50
-
 For additional information on amsmath, use the `?' option.
 
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/amsmath\amstext.
@@ -180,8 +177,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/float\float.sty
+) (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/float\float.st
+y
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count278
 \float@exts=\toks23
@@ -189,6 +186,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box55
 )
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgfplots\pgfplot
+s.sty
+(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfpl
+ots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlaye
 r\tikz.sty
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\p
@@ -516,12 +519,6 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 yer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/pgfplots\pgfplot
-s.sty
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfpl
-ots.revision.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfpl
 ots.code.tex
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfpl
@@ -673,22 +670,13 @@ with kernel methods
 )
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
 yer/tikz/libraries\tikzexternalshared.code.tex)))
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/libs\
-tikzlibrarypgfplots.fillbetween.code.tex
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/pgfco
-ntrib\tikzlibraryfillbetween.code.tex
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
-yer/tikz/libraries\tikzlibraryintersections.code.tex
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\
-pgflibraryintersections.code.tex
-\pgf@intersect@solutions=\count307
-))
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/pgfco
-ntrib\tikzlibrarydecorations.softclip.code.tex
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/pgfco
-ntrib\pgflibraryfillbetween.code.tex)))
-(C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/libs\
-tikzlibrarypgfplots.decorations.softclip.code.tex))
+No auxiliary output files.
+
+\w@pgfexternal@auxout=\write4
+Package TikZ externalization: calling \geometry{driver=none} during externaliza
+tion.
+
+
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendla
 yer/tikz/libraries\tikzlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -697,27 +685,23 @@ File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 yer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (main.aux)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+*geometry* detected driver: <none>
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: \Gm@driver 
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -752,16 +736,16 @@ LaTeX Font Info:    ... okay on input line 165.
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp
 -pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
+\scratchcounter=\count307
 \scratchdimen=\dimen280
 \scratchbox=\box68
-\nofMPsegments=\count309
-\nofMParguments=\count310
+\nofMPsegments=\count308
+\nofMParguments=\count309
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count311
+\MPscratchCnt=\count310
 \MPscratchDim=\dimen281
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks45
 )
 (C:\Users\Muhamad Ridzuan\AppData\Roaming\MiKTeX\2.9\tex/latex/epstopdf-pkg\eps
@@ -774,8 +758,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 f-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
 (chapter_1.tex
 Overfull \hbox (9.22026pt too wide) in paragraph at lines 33--34
@@ -783,403 +767,94 @@ Overfull \hbox (9.22026pt too wide) in paragraph at lines 33--34
 e where the contribution of input is \OT1/cmr/m/it/10 incrementally
  []
 
-[1
+The command '\includegraphics [scale=0.5]{simplified_perceptron_model}' has bee
+n optimized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [scale=0.5]{perceptron_fbd}' has been optimized a
+way. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [scale=0.5]{perceptron_fbd}' has been optimized a
+way. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [scale=0.5]{hyperplane}' has been optimized away.
+ Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [scale=0.5]{2d_hyperplane}' has been optimized aw
+ay. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [scale=0.5]{1_boolean}' has been optimized away. 
+Use '/tikz/external/optimize=false' to disable this.
 
-{C:/Users/Muhamad Ridzuan/AppData/Local/MiKTeX/2.9/fonts/map/pdftex/pdftex.map}
-]
-<./images//simplified_perceptron_model.png, id=19, 470.50781pt x 348.55219pt>
-File: ./images//simplified_perceptron_model.png Graphic file (type png)
-<use ./images//simplified_perceptron_model.png>
-Package pdftex.def Info: ./images//simplified_perceptron_model.png  used on inp
-ut line 57.
-(pdftex.def)             Requested size: 235.25333pt x 174.27565pt.
-<./images//perceptron_fbd.png, id=21, 588.69937pt x 290.58563pt>
-File: ./images//perceptron_fbd.png Graphic file (type png)
-<use ./images//perceptron_fbd.png>
-Package pdftex.def Info: ./images//perceptron_fbd.png  used on input line 68.
-(pdftex.def)             Requested size: 294.34895pt x 145.29245pt.
- [2 <./images//simplified_perceptron_model.png> <./images//perceptron_fbd.png>]
-File: ./images//perceptron_fbd.png Graphic file (type png)
-<use ./images//perceptron_fbd.png>
-Package pdftex.def Info: ./images//perceptron_fbd.png  used on input line 122.
-(pdftex.def)             Requested size: 294.34895pt x 145.29245pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3]
-<./images//hyperplane.png, id=31, 447.92343pt x 289.08pt>
-File: ./images//hyperplane.png Graphic file (type png)
-<use ./images//hyperplane.png>
-Package pdftex.def Info: ./images//hyperplane.png  used on input line 169.
-(pdftex.def)             Requested size: 223.96117pt x 144.53964pt.
- [4]
-<./images//2d_hyperplane.png, id=35, 335.00156pt x 252.945pt>
-File: ./images//2d_hyperplane.png Graphic file (type png)
-<use ./images//2d_hyperplane.png>
-Package pdftex.def Info: ./images//2d_hyperplane.png  used on input line 177.
-(pdftex.def)             Requested size: 167.50037pt x 126.47218pt.
-<./images//1_boolean.png, id=36, 792.71156pt x 274.02374pt>
-File: ./images//1_boolean.png Graphic file (type png)
-<use ./images//1_boolean.png>
-Package pdftex.def Info: ./images//1_boolean.png  used on input line 185.
-(pdftex.def)             Requested size: 396.35481pt x 137.01154pt.
- [5 <./images//hyperplane.png> <./images//2d_hyperplane.png> <./images//1_boole
-an.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 219--221
 []
  []
 
-<./images//2_and_gate.png, id=43, 377.91188pt x 310.15875pt>
-File: ./images//2_and_gate.png Graphic file (type png)
-<use ./images//2_and_gate.png>
-Package pdftex.def Info: ./images//2_and_gate.png  used on input line 252.
-(pdftex.def)             Requested size: 234.8775pt x 192.7697pt.
-[6]
-<./images//2_or_gate.png, id=47, 380.17032pt x 298.11375pt>
-File: ./images//2_or_gate.png Graphic file (type png)
-<use ./images//2_or_gate.png>
-Package pdftex.def Info: ./images//2_or_gate.png  used on input line 303.
-(pdftex.def)             Requested size: 234.8775pt x 184.18723pt.
- [7 <./images//2_and_gate.png>]
-<./images//2_not_gate.png, id=53, 375.65344pt x 211.54031pt>
-File: ./images//2_not_gate.png Graphic file (type png)
-<use ./images//2_not_gate.png>
-Package pdftex.def Info: ./images//2_not_gate.png  used on input line 350.
-(pdftex.def)             Requested size: 234.8775pt x 132.26723pt.
- [8 <./images//2_or_gate.png> <./images//2_not_gate.png>]
-<./images//1_multi_model_perceptron.png, id=59, 1353.55687pt x 856.70062pt>
-File: ./images//1_multi_model_perceptron.png Graphic file (type png)
-<use ./images//1_multi_model_perceptron.png>
-Package pdftex.def Info: ./images//1_multi_model_perceptron.png  used on input 
-line 359.
-(pdftex.def)             Requested size: 469.75502pt x 297.3137pt.
-<./images//1_pentagon.png, id=60, 766.36313pt x 398.99063pt>
-File: ./images//1_pentagon.png Graphic file (type png)
-<use ./images//1_pentagon.png>
-Package pdftex.def Info: ./images//1_pentagon.png  used on input line 367.
-(pdftex.def)             Requested size: 469.75502pt x 244.5711pt.
- [9 <./images//1_multi_model_perceptron.png>]
-<./images//1_complex.png, id=64, 752.0597pt x 374.14781pt>
-File: ./images//1_complex.png Graphic file (type png)
-<use ./images//1_complex.png>
-Package pdftex.def Info: ./images//1_complex.png  used on input line 375.
-(pdftex.def)             Requested size: 469.75502pt x 233.70477pt.
- [10 <./images//1_pentagon.png> <./images//1_complex.png>]
-<./images//1_3_unit_mlps.png, id=70, 296.60812pt x 264.23718pt>
-File: ./images//1_3_unit_mlps.png Graphic file (type png)
-<use ./images//1_3_unit_mlps.png>
-Package pdftex.def Info: ./images//1_3_unit_mlps.png  used on input line 400.
-(pdftex.def)             Requested size: 234.8775pt x 209.2531pt.
-<./images//1_arbitrary_continuous.png, id=71, 420.82219pt x 234.1247pt>
-File: ./images//1_arbitrary_continuous.png Graphic file (type png)
-<use ./images//1_arbitrary_continuous.png>
-Package pdftex.def Info: ./images//1_arbitrary_continuous.png  used on input li
-ne 419.
-(pdftex.def)             Requested size: 234.8775pt x 130.67667pt.
- [11 <./images//1_3_unit_mlps.png>])
-(chapter_2.tex [12 <./images//1_arbitrary_continuous.png>]
-<./images//2_perceptron.png, id=80, 473.51906pt x 298.11375pt>
-File: ./images//2_perceptron.png Graphic file (type png)
-<use ./images//2_perceptron.png>
-Package pdftex.def Info: ./images//2_perceptron.png  used on input line 6.
-(pdftex.def)             Requested size: 234.8775pt x 147.86926pt.
-<./images//2_2depth.png, id=81, 227.34938pt x 121.95563pt>
-File: ./images//2_2depth.png Graphic file (type png)
-<use ./images//2_2depth.png>
-Package pdftex.def Info: ./images//2_2depth.png  used on input line 55.
-(pdftex.def)             Requested size: 187.89914pt x 100.79512pt.
- [13 <./images//2_perceptron.png>]
-<./images//2_3depth.png, id=87, 295.85532pt x 149.05687pt>
-File: ./images//2_3depth.png Graphic file (type png)
-<use ./images//2_3depth.png>
-Package pdftex.def Info: ./images//2_3depth.png  used on input line 62.
-(pdftex.def)             Requested size: 187.89914pt x 94.66824pt.
-<./images//2_layer.png, id=88, 551.81157pt x 238.64156pt>
-File: ./images//2_layer.png Graphic file (type png)
-<use ./images//2_layer.png>
-Package pdftex.def Info: ./images//2_layer.png  used on input line 73.
-(pdftex.def)             Requested size: 352.31625pt x 152.37321pt.
- [14 <./images//2_2depth.png> <./images//2_3depth.png> <./images//2_layer.png>]
-<./images//2_boolean_gate.png, id=95, 776.14969pt x 386.19281pt>
-File: ./images//2_boolean_gate.png Graphic file (type png)
-<use ./images//2_boolean_gate.png>
-Package pdftex.def Info: ./images//2_boolean_gate.png  used on input line 90.
-(pdftex.def)             Requested size: 469.75502pt x 233.74458pt.
-<./images//2_universal_and.png, id=96, 688.07062pt x 348.55219pt>
-File: ./images//2_universal_and.png Graphic file (type png)
-<use ./images//2_universal_and.png>
-Package pdftex.def Info: ./images//2_universal_and.png  used on input line 106.
-
-(pdftex.def)             Requested size: 234.8775pt x 118.9795pt.
- [15 <./images//2_boolean_gate.png> <./images//2_universal_and.png>]
-<./images//2_universal_or.png, id=102, 683.55376pt x 356.0803pt>
-File: ./images//2_universal_or.png Graphic file (type png)
-<use ./images//2_universal_or.png>
-Package pdftex.def Info: ./images//2_universal_or.png  used on input line 118.
-(pdftex.def)             Requested size: 234.8775pt x 122.3534pt.
-<./images//2_majority_gate.png, id=103, 613.54219pt x 311.66437pt>
-File: ./images//2_majority_gate.png Graphic file (type png)
-<use ./images//2_majority_gate.png>
-Package pdftex.def Info: ./images//2_majority_gate.png  used on input line 130.
-
-(pdftex.def)             Requested size: 234.8775pt x 119.31348pt.
- [16 <./images//2_universal_or.png> <./images//2_majority_gate.png>]
-<./images//2_truth_table.png, id=109, 363.60844pt x 190.46156pt>
-File: ./images//2_truth_table.png Graphic file (type png)
-<use ./images//2_truth_table.png>
-Package pdftex.def Info: ./images//2_truth_table.png  used on input line 170.
-(pdftex.def)             Requested size: 234.8775pt x 123.0342pt.
- [17 <./images//2_truth_table.png>]
-<./images//2_reduced_dnf.png, id=114, 287.57437pt x 291.33844pt>
-File: ./images//2_reduced_dnf.png Graphic file (type png)
-<use ./images//2_reduced_dnf.png>
-Package pdftex.def Info: ./images//2_reduced_dnf.png  used on input line 220.
-(pdftex.def)             Requested size: 234.8775pt x 237.95662pt.
-<./images//2_xor.png, id=115, 540.51938pt x 388.45125pt>
-File: ./images//2_xor.png Graphic file (type png)
-<use ./images//2_xor.png>
-Package pdftex.def Info: ./images//2_xor.png  used on input line 251.
-(pdftex.def)             Requested size: 234.8775pt x 168.7971pt.
- [18 <./images//2_reduced_dnf.png>]
-<./images//2_xor_cascade.png, id=121, 249.93375pt x 349.305pt>
-File: ./images//2_xor_cascade.png Graphic file (type png)
-<use ./images//2_xor_cascade.png>
-Package pdftex.def Info: ./images//2_xor_cascade.png  used on input line 259.
-(pdftex.def)             Requested size: 234.8775pt x 328.27211pt.
- [19 <./images//2_xor.png> <./images//2_xor_cascade.png>]
-<./images//2_multi_layer_xor.png, id=128, 319.1925pt x 253.69781pt>
-File: ./images//2_multi_layer_xor.png Graphic file (type png)
-<use ./images//2_multi_layer_xor.png>
-Package pdftex.def Info: ./images//2_multi_layer_xor.png  used on input line 27
-4.
-(pdftex.def)             Requested size: 352.31625pt x 280.02849pt.
-<./images//2_k_layer_xor.png, id=129, 505.13719pt x 245.41687pt>
-File: ./images//2_k_layer_xor.png Graphic file (type png)
-<use ./images//2_k_layer_xor.png>
-Package pdftex.def Info: ./images//2_k_layer_xor.png  used on input line 286.
-(pdftex.def)             Requested size: 352.31625pt x 171.17274pt.
- [20 <./images//2_multi_layer_xor.png> <./images//2_k_layer_xor.png>]
-<./images//2_1_layer_mlp.png, id=138, 362.85562pt x 176.91093pt>
-File: ./images//2_1_layer_mlp.png Graphic file (type png)
-<use ./images//2_1_layer_mlp.png>
-Package pdftex.def Info: ./images//2_1_layer_mlp.png  used on input line 303.
-(pdftex.def)             Requested size: 352.31625pt x 171.77615pt.
-<./images//2_penta_boundary.png, id=139, 369.63094pt x 258.9675pt>
-File: ./images//2_penta_boundary.png Graphic file (type png)
-<use ./images//2_penta_boundary.png>
-Package pdftex.def Info: ./images//2_penta_boundary.png  used on input line 313
-.
-(pdftex.def)             Requested size: 234.8775pt x 164.55711pt.
-<./images//2_sum_output.png, id=140, 816.80156pt x 395.22656pt>
-File: ./images//2_sum_output.png Graphic file (type png)
-<use ./images//2_sum_output.png>
-Package pdftex.def Info: ./images//2_sum_output.png  used on input line 321.
-(pdftex.def)             Requested size: 469.75502pt x 227.30174pt.
- [21 <./images//2_1_layer_mlp.png> <./images//2_penta_boundary.png>]
-File: ./images//1_complex.png Graphic file (type png)
-<use ./images//1_complex.png>
-Package pdftex.def Info: ./images//1_complex.png  used on input line 328.
-(pdftex.def)             Requested size: 469.75502pt x 233.70477pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--337
-
- []
-
-<./images//2_square_boundary.png, id=146, 707.64375pt x 301.125pt>
-File: ./images//2_square_boundary.png Graphic file (type png)
-<use ./images//2_square_boundary.png>
-Package pdftex.def Info: ./images//2_square_boundary.png  used on input line 34
-0.
-(pdftex.def)             Requested size: 469.75502pt x 199.8964pt.
-[22 <./images//2_sum_output.png>]
-<./images//2_pentagon_boundary.png, id=151, 767.11594pt x 431.36156pt>
-File: ./images//2_pentagon_boundary.png Graphic file (type png)
-<use ./images//2_pentagon_boundary.png>
-Package pdftex.def Info: ./images//2_pentagon_boundary.png  used on input line 
-348.
-(pdftex.def)             Requested size: 469.75502pt x 264.15697pt.
-<./images//2_hexagon_boundary.png, id=152, 727.96968pt x 318.43968pt>
-File: ./images//2_hexagon_boundary.png Graphic file (type png)
-<use ./images//2_hexagon_boundary.png>
-Package pdftex.def Info: ./images//2_hexagon_boundary.png  used on input line 3
-56.
-(pdftex.def)             Requested size: 469.75502pt x 205.49162pt.
- [23 <./images//2_square_boundary.png> <./images//2_pentagon_boundary.png>]
-<./images//2_composite_boundary.png, id=157, 832.61063pt x 342.5297pt>
-File: ./images//2_composite_boundary.png Graphic file (type png)
-<use ./images//2_composite_boundary.png>
-Package pdftex.def Info: ./images//2_composite_boundary.png  used on input line
- 364.
-(pdftex.def)             Requested size: 469.75502pt x 193.25262pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--369
-[]
- []
+The command '\includegraphics [width=0.5\textwidth ]{2_and_gate}' has been opti
+mized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.5\textwidth ]{2_or_gate}' has been optim
+ized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.5\textwidth ]{2_not_gate}' has been opti
+mized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=\textwidth ]{1_multi_model_perceptron}' ha
+s been optimized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=\textwidth ]{1_pentagon}' has been optimiz
+ed away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=\textwidth ]{1_complex}' has been optimize
+d away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.5\textwidth ]{1_3_unit_mlps}' has been o
+ptimized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.5\textwidth ]{1_arbitrary_continuous}' h
+as been optimized away. Use '/tikz/external/optimize=false' to disable this.
+) (chapter_2.tex
+The command '\includegraphics [width=0.5\textwidth ]{2_perceptron}' has been op
+timized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.4\textwidth ]{2_2depth}' has been optimi
+zed away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.4\textwidth ]{2_3depth}' has been optimi
+zed away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.75\textwidth ]{2_layer}' has been optimi
+zed away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=\textwidth ]{2_boolean_gate}' has been opt
+imized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.5\textwidth ]{2_universal_and}' has been
+ optimized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.5\textwidth ]{2_universal_or}' has been 
+optimized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.5\textwidth ]{2_majority_gate}' has been
+ optimized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [width=0.5\textwidth ]{2_truth_table}' has been o
+ptimized away. Use '/tikz/external/optimize=false' to disable this.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
+\openout3 = `main-figure2.dpth'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--376
-[]
- []
+! Package tikz Error: Sorry, image externalization failed: the resulting image 
+was EMPTY. I tried to externalize 'main-figure2', but it seems there is no such
+ image in the document!?  
+   You are currently using 'mode=convert with system call'. This problem can ha
+ppen if the image (or one of the images preceding it) was declared inside of a 
+\label{} (i.e. in the .aux file): 'convert with system call' has no access to t
+he main aux file.
+   Possible solutions in this case:
+   (a) Try using 'mode=list and make',
+   (b) Issue the externalization command 'pdflatex -shell-escape -halt-on-error
+ -interaction=batchmode -jobname "main-figure2" "\def\tikzexternalrealjob{main}
+\input{main}"' *manually* (also check the preceding externalized images, perhap
+s the file name sequence is not correct).
+   Repeat: the resulting image was EMPTY, your attention is required .
 
-[24 <./images//2_hexagon_boundary.png> <./images//2_composite_boundary.png>]
-<./images//2_circle_mlp.png, id=163, 786.68906pt x 290.58563pt>
-File: ./images//2_circle_mlp.png Graphic file (type png)
-<use ./images//2_circle_mlp.png>
-Package pdftex.def Info: ./images//2_circle_mlp.png  used on input line 402.
-(pdftex.def)             Requested size: 469.75502pt x 173.52356pt.
-<./images//2_multiple_circles.png, id=164, 816.04875pt x 448.67625pt>
-File: ./images//2_multiple_circles.png Graphic file (type png)
-<use ./images//2_multiple_circles.png>
-Package pdftex.def Info: ./images//2_multiple_circles.png  used on input line 4
-16.
-(pdftex.def)             Requested size: 469.75502pt x 258.28122pt.
-
-[25 <./images//2_circle_mlp.png>]
-<./images//2_circle_mlp_composite.png, id=170, 834.86906pt x 312.41719pt>
-File: ./images//2_circle_mlp_composite.png Graphic file (type png)
-<use ./images//2_circle_mlp_composite.png>
-Package pdftex.def Info: ./images//2_circle_mlp_composite.png  used on input li
-ne 424.
-(pdftex.def)             Requested size: 469.75502pt x 175.79143pt.
-<./images//2_deep_vs_one.png, id=171, 850.67813pt x 211.54031pt>
-File: ./images//2_deep_vs_one.png Graphic file (type png)
-<use ./images//2_deep_vs_one.png>
-Package pdftex.def Info: ./images//2_deep_vs_one.png  used on input line 431.
-(pdftex.def)             Requested size: 469.75502pt x 116.81555pt.
- [26 <./images//2_multiple_circles.png> <./images//2_circle_mlp_composite.png>]
-<./images//2_infinite.png, id=176, 831.105pt x 305.64188pt>
-File: ./images//2_infinite.png Graphic file (type png)
-<use ./images//2_infinite.png>
-Package pdftex.def Info: ./images//2_infinite.png  used on input line 438.
-(pdftex.def)             Requested size: 469.75502pt x 172.75327pt.
-<./images//2_2_layer_mlp.png, id=177, 438.8897pt x 310.15875pt>
-File: ./images//2_2_layer_mlp.png Graphic file (type png)
-<use ./images//2_2_layer_mlp.png>
-Package pdftex.def Info: ./images//2_2_layer_mlp.png  used on input line 452.
-(pdftex.def)             Requested size: 234.8775pt x 165.98772pt.
- [27 <./images//2_deep_vs_one.png> <./images//2_infinite.png>]
-<./images//2_first_layer_xor.png, id=183, 374.14781pt x 314.67563pt>
-File: ./images//2_first_layer_xor.png Graphic file (type png)
-<use ./images//2_first_layer_xor.png>
-Package pdftex.def Info: ./images//2_first_layer_xor.png  used on input line 46
-7.
-(pdftex.def)             Requested size: 234.8775pt x 197.54565pt.
-<./images//2_checker_boundary.png, id=184, 229.60782pt x 190.46156pt>
-File: ./images//2_checker_boundary.png Graphic file (type png)
-<use ./images//2_checker_boundary.png>
-Package pdftex.def Info: ./images//2_checker_boundary.png  used on input line 4
-79.
-(pdftex.def)             Requested size: 234.8775pt x 194.84363pt.
- [28 <./images//2_2_layer_mlp.png> <./images//2_first_layer_xor.png>]
-<./images//2_16.png, id=190, 207.77625pt x 138.5175pt>
-File: ./images//2_16.png Graphic file (type png)
-<use ./images//2_16.png>
-Package pdftex.def Info: ./images//2_16.png  used on input line 487.
-(pdftex.def)             Requested size: 234.8775pt x 156.59058pt.
-<./images//2_not_16.png, id=191, 207.77625pt x 140.02313pt>
-File: ./images//2_not_16.png Graphic file (type png)
-<use ./images//2_not_16.png>
-Package pdftex.def Info: ./images//2_not_16.png  used on input line 492.
-(pdftex.def)             Requested size: 234.8775pt x 158.29265pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--499
-
- []
-
-[29 <./images//2_checker_boundary.png> <./images//2_16.png> <./images//2_not_16
-.png>]
-Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no , in font nullfont!
-Package pgfplots info on input line 574: fill between: activating layered graph
-ics
-\pgf@layerbox@axis background=\box69
-\pgf@layerboxsaved@axis background=\box70
-\pgf@layerbox@axis grid=\box71
-\pgf@layerboxsaved@axis grid=\box72
-\pgf@layerbox@axis ticks=\box73
-\pgf@layerboxsaved@axis ticks=\box74
-\pgf@layerbox@axis lines=\box75
-\pgf@layerboxsaved@axis lines=\box76
-\pgf@layerbox@axis tick labels=\box77
-\pgf@layerboxsaved@axis tick labels=\box78
-\pgf@layerbox@pre main=\box79
-\pgf@layerboxsaved@pre main=\box80
-\pgf@layerbox@axis descriptions=\box81
-\pgf@layerboxsaved@axis descriptions=\box82
-\pgf@layerbox@axis foreground=\box83
-\pgf@layerboxsaved@axis foreground=\box84
-Package pgfplots info on input line 574: Setting layers 'axis background,axis g
-rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
- foreground'...
-[30]) [31] (main.aux) ) 
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \end{document}
+                     
 Here is how much of TeX's memory you used:
- 26395 strings out of 478312
- 700142 string characters out of 5839263
- 2126090 words of memory out of 5000000
- 46108 multiletter control sequences out of 15000+600000
- 518970 words of font info for 55 fonts, out of 8000000 for 9000
+ 24359 strings out of 478312
+ 646253 string characters out of 5839263
+ 1865340 words of memory out of 5000000
+ 44097 multiletter control sequences out of 15000+600000
+ 519271 words of font info for 56 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 84i,16n,89p,730b,2157s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Muhamad Ridzuan\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Muhamad Ridzuan/AppData/Ro
-aming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Muhamad Ri
-dzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
-Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.
-9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Muhamad Ridzuan/AppData/Ro
-aming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Muhamad Rid
-zuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
-ers/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fo
-nts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming
-/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhamad Ridzuan/A
-ppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/M
-uhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy5.
-pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (31 pages, 2817430 bytes).
-PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103i,16n,106p,751b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+!  ==> Fatal error occurred, no output PDF file produced!
