@@ -110,9 +110,31 @@ However, these input has to be represented in a form of numerical unit.
 		\coordinate[right=of input_2] (bottom_junction){};
 		
 		\path[-] (input_0.east) edge (top_junction)
-			(top_junction) edge[-|] (hub_input)
+			(top_junction) edge[-] (hub_input)
 			(input_2.east) edge (bottom_junction)
-			(bottom_junction) edge[-|] (hub_input);
+			(bottom_junction) edge[-] (hub_input);
+			
+		\node [draw,
+		fill=Goldenrod,
+		minimum width=2cm,
+		minimum height=1.2cm,
+		right=2cm of hub_input]  (nnet) {Neural Net};
+		
+		\path[-] (input_1.east) edge (hub_input)
+			(hub_input) edge[->] (nnet.west);
+			
+		\coordinate[right=of nnet] (hub_output){};
+			
+		\node[draw,
+		minimum width=3cm,
+		minimum height=1.2cm,
+		above right=of hub_output] (output_1) {$x$};
+		
+			\node[draw,
+		minimum width=3cm,
+		minimum height=1.2cm,
+		above =of output_0] (output_0) {$x$};
+		
 	\end{tikzpicture}
 \end{figure}
 
