@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  25 MAR 2024 07:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.7.30)  26 MAR 2024 07:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1168,38 +1168,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--612
 
  []
 
-[31] [32]) (chapter_3.tex) [33] (main.aux) ) 
+[31] [32]) (chapter_3.tex [33]) [34] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 27246 strings out of 478312
- 719828 string characters out of 5839263
+ 27317 strings out of 478312
+ 721297 string characters out of 5839263
  2153535 words of memory out of 5000000
- 46942 multiletter control sequences out of 15000+600000
+ 47013 multiletter control sequences out of 15000+600000
  518970 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  84i,16n,85p,702b,2163s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Muhamad Ridzuan\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Muham
-ad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKT
-eX/2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzuan/AppD
-ata/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Muham
-ad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-<C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/
-2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/AppData/
-Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Muhamad Ri
-dzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
-ers/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Muhamad Ridzuan/AppData/Roami
-ng/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (33 pages, 2826695 bytes).
+ <C:\Users\Muhamad Ridzuan\App
+Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/
+Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming
+/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Muhamad Ridzuan
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/
+Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi7
+.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/Mi
+KTeX/2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Muhamad Ridzuan/App
+Data/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Muham
+ad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/2.9/fonts/type1
+/public/amsfonts/cm/cmsy5.pfb><C:/Users/Muhamad Ridzuan/AppData/Roaming/MiKTeX/
+2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Muhamad Ridzuan/AppData/
+Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (34 pages, 2831006 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
+ 280 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
