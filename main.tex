@@ -1,6 +1,7 @@
 \documentclass{article}
 
 % Packages for various functionalities
+\usepackage[dvipsnames]{xcolor}
 \usepackage{lipsum} % For generating dummy text
 \usepackage[margin=1in]{geometry} % Adjust margins
 \usepackage{setspace} % For adjusting line spacing
@@ -9,6 +10,7 @@
 \usepackage{float}
 \usepackage{tikz}
 \usepackage{pgfplots}
+
 \graphicspath{ {./images/} }
 % Title information
 \title{Neural Network Note}
@@ -21,7 +23,7 @@
 \usepgfplotslibrary{fillbetween}
 
 %% tikz config for K-maps
-\usetikzlibrary{matrix,calc}
+\usetikzlibrary{matrix,calc,shapes.geometric,positioning}
 %isolated term
 %#1 - Optional. Space between node and grouping line. Default=0
 %#2 - node
@@ -166,4 +168,5 @@
 	\maketitle
 	\input{chapter_1.tex}
 	\input{chapter_2.tex}
+	\input{chapter_3.tex}
 \end{document}
