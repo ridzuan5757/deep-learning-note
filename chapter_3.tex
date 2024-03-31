@@ -133,7 +133,7 @@ However, these input has to be represented in a form of numerical unit.
 			\node[draw,
 		minimum width=3cm,
 		minimum height=1.2cm,
-		above =of output_0] (output_0) {$x$};
+		above right =of output_0] (output_0) {$x$};
 		
 	\end{tikzpicture}
 \end{figure}
@@ -166,5 +166,50 @@ However, these input has to be represented in a form of numerical unit.
 	\end{tikzpicture}
 \end{figure}
 
+\hfill\break
+If we are modelling these functions as neural network, there are some questions that need to be answered:
+\begin{itemize}
+	\item How do we represent the input?
+	\item How do we represent the output?
+	\item How do we compose the network that performs the requisite function?
+\end{itemize}
+
+\hfill\break
+In what we have seen so far, neural network is composed of number of simple elements called perceptrons. On individual level, each perceptron has:
+\begin{itemize}
+	\item Bunch of real value input.
+	\item Bias term.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{3_perceptron}
+\end{figure}
+
+\hfill\break
+The perceptron first compute the affine function of the inputs which is the weighted sum of the individual inputs plus the bias term $b$, giving us value $Z$. This affine value $Z$ get put through an activation function $\sigma(Z)$
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{3_activation_function}
+\end{figure}
+
+\hfill\break
+The parameter of the perceptron, which determine how it behaves are the weights
+$w$ and the bias $b$. The bias term is usually isolated with the inputs, however
+there is a different way in viewing the bias term, which is to say that we can
+augment the input with an additional component whose value is $1$. If we do so,
+then the weight of this additional input, $w_{N+1}$ effectively capture the
+bias.
+
+This is just a matter of representation. Say if the perceptron does not
+explicitly showing a bias, then we must understand that we are considering that
+the input has been augmented by the additional term such that the input is $1$ and
+the weight $w_{N+1}$ is the bias.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{3_perceptron_wo_bias}
+\end{figure}
 
 
